@@ -5,6 +5,7 @@ import HeroSection from '../Components/HeroSection';
 import IdInicio from "../Components/HeroSection/DataHero";
 
 
+
 function Home() {
 
   const [isOpen, setIsOpen] = useState(false)
@@ -17,10 +18,7 @@ function Home() {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle}/>
-      <HeroSection {...IdInicio}/>
-
-      {/* <Exemple /> */}
-    
+      <HeroSection {...IdInicio}/>  
     </>
   )
 }

@@ -1,7 +1,8 @@
 import React, {useEffect} from "react";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import CountdownTimer from '../CountTimer'
+import CountdownTimer from '../CountTimer';
+import Typewriter from '../Typewriter';
 // import {GoAlert} from 'react-icons/go'
 
 import src from "../../Assets/Photos/scroll-down-hero.png"
@@ -16,10 +17,7 @@ const HeroSection = ({id}) => {
                 <C.HeroBg>
                     <C.Content>
                         <C.Pincipe>
-                            <C.h2Principe>AntiRascimo</C.h2Principe>
-                            <C.h2Principe>AntiOmofobia</C.h2Principe>
-                            <C.h2Principe>AntiFascismo</C.h2Principe>
-                            <C.h2Principe>AntiRascimo</C.h2Principe>
+                            <Typewriter />
                         </C.Pincipe>
                         <C.CounterHero>
                             <CountdownTimer />
