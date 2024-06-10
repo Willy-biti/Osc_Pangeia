@@ -2,8 +2,8 @@ import Navbar from '../Components/Navbar';
 import {useState} from "react";
 import Sidebar from '../Components/Sidebar';
 import HeroSection from '../Components/HeroSection';
-import IdInicio from "../Components/HeroSection/DataHero"
-import Tesudo from '../Components/teste';
+import IdInicio from "../Components/HeroSection/DataHero";
+import CountdownTimer from '../Components/CountTimer'
 
 function Home() {
 
@@ -18,8 +18,7 @@ function Home() {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle}/>
       <HeroSection {...IdInicio}/>
-
-      <Tesudo />
+      <CountdownTimer />
     </>
   )
 }
