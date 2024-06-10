@@ -4,15 +4,15 @@ import { Link as LinkS } from "react-scroll";
 import theme from "../../Theme/theme";
 
 export const Nav = styled.nav`
-    background: #000;
-    background: ${({scrollNav}) => (scrollNav ? '#000' : 'transparent')};
+    background: 'transparent';
     height: 80px;
-    margin-top: -80px;
+    width: 100vw ;   
+    // margin-top: -80px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     font-size: 1rem;
-    position: sticky;
+    position: absolute;
     top: 0;
     z-index: 10;
     
@@ -26,7 +26,7 @@ export const NavbarContainer = styled.div`
     display: flex;
     justify-content: space-between;
     height: 80px;
-    width: 80vw;
+    width: 80vw ;
 
 `
 

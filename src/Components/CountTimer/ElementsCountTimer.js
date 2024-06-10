@@ -1,30 +1,27 @@
 import styled from 'styled-components';
-import regaBackground from './rega.jpg'; // Importando a imagem de rega
 
 export const CountdownContainer = styled.div`
-  height: 100vh; /* Ocupa a altura total da tela */
-  background-image: url(${regaBackground});
-  background-size: cover;
-  background-position: center;
   display: flex;
   justify-content: center;
-  align-items: center;
 `;
 
 export const ContentWrapper = styled.div`
-  width: 40%; /* Ocupa 40% da largura da tela */
-  background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente */
+  // width: 40%; /* Ocupa 40% da largura da tela */
+  // background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente */
+  background-color: rgba(0, 0, 0, 0.3);
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  color: #000;
+  color: #fffff;
   display: flex;
   flex-direction: column;
   align-items: center;
+  // margin-top: 60px;
 `;
 
 export const Title = styled.h1`
-  margin-bottom: 40px;
+  margin-bottom: 60px;
+  font-size: 50px;
 `;
 
 export const TimerContainer = styled.div`
@@ -42,7 +39,7 @@ export const TimerComponent = styled.div`
 
 export const TimerNumber = styled.div`
   font-size: 2rem;
-  color: #000;
+  color: #fffff;
   background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo com transparência */
   padding: 5px 10px; /* Adicionando espaçamento interno */
   border-radius: 5px; /* Adicionando borda arredondada */
@@ -50,7 +47,7 @@ export const TimerNumber = styled.div`
 
 export const TimerLabel = styled.div`
   font-size: 1rem;
-  color: #000;
+  color: #fffff;
   padding-top: 10px;
 `;
 

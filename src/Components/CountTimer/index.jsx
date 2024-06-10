@@ -41,7 +41,7 @@ const CountdownTimer = () => {
   return (
     <CountdownContainer>
       <ContentWrapper>
-        <Title>FESTIVAL 2024</Title>
+        <Title>FESTIVAL PANGEIA 2024</Title>
         <TimerContainer>
           <TimerDisplay timeLeft={timeLeft} />
         </TimerContainer>
