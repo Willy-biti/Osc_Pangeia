@@ -3,7 +3,8 @@ import Navbar from '../Components/Navbar';
 import Sidebar from '../Components/Sidebar';
 import HeroSection from '../Components/HeroSection';
 import IdInicio from "../Components/HeroSection/DataHero";
-
+import ContainerFooter from "../Components/Footer";
+import Parceria from "../Components/Parceria";
 
 
 function Home() {
@@ -19,6 +20,9 @@ function Home() {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle}/>
       <HeroSection {...IdInicio}/>  
+      <Parceria />
+      <ContainerFooter /> 
+      
     </>
   )
 }
