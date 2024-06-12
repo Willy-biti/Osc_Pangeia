@@ -3,6 +3,8 @@ import Navbar from '../Components/Navbar';
 import Sidebar from '../Components/Sidebar';
 import HeroSection from '../Components/HeroSection';
 import IdInicio from "../Components/HeroSection/DataHero";
+import SobrePangeia from "../Components/Sobre1";
+import {homeObjOne} from "../Components/Sobre1/Data";
 import ContainerFooter from "../Components/Footer";
 import Parceria from "../Components/Parceria";
 
@@ -20,6 +22,7 @@ function Home() {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle}/>
       <HeroSection {...IdInicio}/>  
+      <SobrePangeia { ...homeObjOne}/>
       <Parceria />
       <ContainerFooter /> 
       

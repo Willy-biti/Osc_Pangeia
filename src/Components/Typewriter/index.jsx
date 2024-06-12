@@ -47,9 +47,9 @@ const Typewriter = () => {
         {displayedTexts.map((text, index) => (
           <TextLine key={index}>
             <TypeWriterEffect
-              textStyle={{ color: 'orange' }}
+              textStyle={{ color: 'white' }}
               startDelay={100}
-              cursorColor="orange"
+              cursorColor="white"
               text={text}
               typeSpeed={100}
               hideCursorAfterText={true}

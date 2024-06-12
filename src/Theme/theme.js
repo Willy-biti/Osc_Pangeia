@@ -5,7 +5,7 @@ const theme = {
     background3: '#000',
     primary: 'white',
     secondary: 'white',
-    troisieme: 'white',
+    troisieme: 'blue',
     quatrieme: 'white',
     cinquieme: 'white',
     gradient: 'linear-gradient(60deg, #6976b2, #4e5b93);',

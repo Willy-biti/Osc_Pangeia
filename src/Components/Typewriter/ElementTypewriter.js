@@ -5,6 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
   justyfy-content: space-between;
   width: 100%;
+  margin-top: 80px;
 
 //   background: blue;
 `;
@@ -20,7 +21,7 @@ export const Title = styled.div`
 export const H1Title = styled.div`
 //   font-family: 'Courier New', Courier, monospace;
   font-size: 32px;
-  color: orange;
+  color: white;
   margin-bottom: 20px;
   width: 100%;
   display: flex;
