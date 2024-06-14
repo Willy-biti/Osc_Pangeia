@@ -12,6 +12,7 @@ import Gallary from "../Components/Gallary";
 import Eventos from "../Components/Eventos";
 import ContainerFooter from "../Components/Footer";
 import Parceria from "../Components/Parceria";
+import Duvidas from "../Components/Duvidas";
 
 
 function Home() {
@@ -28,6 +29,7 @@ function Home() {
       <Navbar toggle={toggle}/>
       <HeroSection {...IdInicio}/>  
       <SobrePangeia { ...homeObjOne}/>
+      <Duvidas />
       <Noticias />
       <SobrePangeia2 />
       <SobrePangeia3 />
