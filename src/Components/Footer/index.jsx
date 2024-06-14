@@ -39,11 +39,11 @@ const ContainerFooter = () => {
                                 <RodapeContatosTitle>Contatos</RodapeContatosTitle>
                                 <RodapeContatosLink href="https://mail.google.com/mail/u/0/?ogbl#inbox" target="_blank" rel="noreferrer">
                                     <RodapeContatosIco><SiIcons.SiGmail  size={16}/></RodapeContatosIco>
-                                    <RodapeContatosP>pangeianomundo@gmail.com</RodapeContatosP> 
+                                    <RodapeContatosP>pangeiao@gmail.com</RodapeContatosP> 
                                 </RodapeContatosLink>
                                 <RodapeContatosLink href="https://wa.me/message/ENYBD2CG6QTEF1" target="_blank" rel="noreferrer">
                                     <RodapeContatosIco><ImIcons.ImWhatsapp  size={16}/></RodapeContatosIco>
-                                    <RodapeContatosP>+55(48)998094533</RodapeContatosP>
+                                    <RodapeContatosP>+55(48)xxxxxxxx</RodapeContatosP>
                                 </RodapeContatosLink>
                             </RodapeContatos>
                             <RodapeRedes>

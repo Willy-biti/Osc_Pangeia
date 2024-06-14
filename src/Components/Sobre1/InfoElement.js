@@ -6,7 +6,7 @@ export const SobreContainer = styled.div`
 display: flex;
 justify-content: center;
 color:${theme.secondary};
-background:  ${theme.background3};
+background:  ${theme.background1};
 min-width: 100vw;
 `
 

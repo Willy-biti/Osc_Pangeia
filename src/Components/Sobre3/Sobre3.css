@@ -1,0 +1,39 @@
+
+.BtnVoltar,
+.BtnIr {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width:40px;
+    height:40px;
+    display: grid;
+    justify-content: right;
+    color: red;
+    font-size: 1rem;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    border-radius: 30px;
+    /* background-color: black; */
+}
+
+
+.BtnVoltar {
+    left: 10vw;
+}
+
+.BtnIr {
+    right: 10vw;
+}
+
+@media screen  and (max-width: 330px) {
+    .BtnIr {
+        display: flex;
+        justify-content: center;
+    }
+    .BtnVoltar {
+        display: flex;
+        justify-content: left;
+    }
+}
+
