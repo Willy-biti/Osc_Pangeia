@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import theme from "../../Theme/theme";
 
 export const Container = styled.div`
   display: flex;
@@ -6,6 +7,7 @@ export const Container = styled.div`
   justyfy-content: space-between;
   width: 100%;
   margin-top: 80px;
+  color: ${theme.primary};
 
 //   background: blue;
 `;
@@ -21,7 +23,6 @@ export const Title = styled.div`
 export const H1Title = styled.div`
 //   font-family: 'Courier New', Courier, monospace;
   font-size: 32px;
-  color: white;
   margin-bottom: 20px;
   width: 100%;
   display: flex;
@@ -34,13 +35,13 @@ export const TypewriterContainer = styled.div`
     flex-direction: column;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
-    color: orange;
+    color: ${theme.primary};
     white-space: nowrap;
 `;
 
 export const TextLine = styled.div`
   overflow: hidden;
-//   border-right: 0.15em solid orange; 
+//   border-right: 0.15em solid ${theme.primary}; 
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: 0.15em;

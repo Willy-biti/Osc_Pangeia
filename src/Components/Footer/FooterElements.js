@@ -5,7 +5,7 @@ export const Rodape = styled.footer`
     display: flex;
     justify-content: center;
     height: 40vh;
-    background: ${theme.background1};
+    background: ${theme.background};
     min-width: 100vw;
 
     @media screen and (max-width: 800px){
@@ -42,7 +42,7 @@ export const RodapeDroit = styled.div`
     justify-content: space-between;
     width: 100%;
     height: 30%;
-    border-top: 1px solid ${theme.quatrieme};
+    border-top: 1px solid ${theme.primary};
 
 
     @media screen and (max-width: 760px){
@@ -82,7 +82,7 @@ export const RodapeContatosTitle = styled.h3`
 
 `
 export const RodapeContatosLink = styled.a`
-color: ${theme.cinquieme};
+color: ${theme.primary};
 margin-bottom: 10px;
 font-size: 14px;
 text-decoration: none;
@@ -136,7 +136,7 @@ export const RodapeRedes = styled.div`
 
 
 export const RodapeRedesLink = styled.a`
-color: ${theme.cinquieme};
+color: ${theme.secondary};
 margin: 15px;
 font-size: 14px;
 text-decoration: none;
@@ -154,7 +154,7 @@ align-items: center;
 
 
 export const LogoRodape = styled.h3`
-    color: ${theme.quatrieme};
+    color: ${theme.primary};
     font-size: 24px;
     font-weight: bold;
     cursor: pointer;
@@ -183,7 +183,7 @@ export const RodapeWebsitRights = styled.p`
     }
 `
 export const RodapeProgrammeur = styled.a`
-color: ${theme.quatrieme};
+color: ${theme.secondary};
 font-size: 11px;
 text-decoration: none;
 cursor: pointer;

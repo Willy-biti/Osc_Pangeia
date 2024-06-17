@@ -3,12 +3,12 @@ import theme from "../../Theme/theme";
 
 export const SobreContainer = styled.div`
 color:${theme.secondary};
-background:  ${theme.background1};
-min-width: 100vw;
+background:  ${theme.background};
+// min-width: 100vw;
 
-@media screen and (max-width: 768px) {
-    padding: 100px 0;
-}
+// @media screen and (max-width: 768px) {
+//     padding: 100px 0;
+// }
 
 
 `
@@ -17,7 +17,6 @@ export const SobreWrapper = styled.div`
 display: grid;
 z-index: 1;
 height: 860px;
-width: 100%;
 max-width: auto;
 margin-left: auto;
 padding: 0 24px;

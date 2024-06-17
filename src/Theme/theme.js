@@ -1,15 +1,10 @@
 
 const theme = {
-    background1: '#03071E',
-    background2: '#CED4DA',
-    background3: '#000',
-    primary: 'white',
-    secondary: 'white',
-    troisieme: 'blue',
-    quatrieme: 'white',
-    cinquieme: 'white',
-    gradient: 'linear-gradient(60deg, #6976b2, #4e5b93);',
-    error: '#'
+    primary: '#4CAF50', // Verde
+    secondary: '#64B5F6', // Azul claro
+    Title: '#000',
+    accent: '#B0BEC5', // Cinza claro
+    background: '#F5F5F5', // Branco gelo
 };
 
 export default theme;

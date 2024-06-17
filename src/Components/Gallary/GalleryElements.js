@@ -6,7 +6,7 @@ export const GallaryContainer = styled.div`
     display: flex;
     justify-content: center;
     height: 600px;
-    background: ${theme.background1};
+    background: ${theme.background};
     min-width: 100vw;
 
     @media screen and (max-width: 550px){
@@ -84,7 +84,7 @@ export const GallaryCard = styled.div`
     height: 80%;
     transition: 0.6s;
     border-radius: 30px;
-    background: ${theme.background2};
+    background: ${theme.background};
     border: 2px solid red;
     padding: 25px;
 
@@ -109,7 +109,7 @@ export const GallaryCardTxt =styled.div`
     align-items: center;
     width: auto;
     height: 40%
-    color: ${theme.troisieme};
+    color: ${theme.secondary};
     font-size: 14px;
     text-align: center;
     // margin-top: 44px;
@@ -124,7 +124,7 @@ export const GallaryCardBtn =styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background: ${theme.background1};
+    background: ${theme.background};
     color: ${theme.primary};
     border-radius: 10px;
     margin-top: 15%;

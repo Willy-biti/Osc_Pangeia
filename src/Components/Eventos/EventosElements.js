@@ -6,7 +6,7 @@ export const EventosContainer = styled.div`
     display: flex;
     justify-content: center;
     height: 800px;
-    background: ${theme.background1};
+    background: ${theme.background};
     min-width: 100vw;
 
     @media screen and (max-width: 785px){
@@ -28,7 +28,7 @@ export const EventosH1 = styled.div`
     align-items: center;
     width: 100%
     height: 200px;
-    color: ${theme.troisieme};
+    color: ${theme.primary};
     font-size: 2.5rem;
     margin-top: 30px;
 
@@ -61,7 +61,7 @@ export const EventosCard = styled.div`
     height: 350px;
     border-radius: 10px;
     margin: 5px;
-    background: ${theme.background1};
+    background: ${theme.background};
 
     &:hover {
         cursor:pointer;
@@ -81,7 +81,7 @@ export const EventosCardM = styled.div`
     height: 380px;
     border-radius: 10px;
     margin: 5px;
-    background: ${theme.background1};
+    background: ${theme.background};
 
     &:hover {
         cursor:pointer;
@@ -121,7 +121,7 @@ export const BtnEnventos = styled.div`
     align-items: center;
     width: 100px;
     height: 30px;
-    background: ${theme.background2};
+    background: ${theme.background};
     margin-bottom: 20px;
     transition: 0.2s;
     border-radius: 10px;
@@ -133,7 +133,7 @@ export const BtnEnventos = styled.div`
 `
 
 export const BtnEntvosLink = styled(LinkR)`
-    color: ${theme.troisieme};
+    color: ${theme.secondary};
     display: flex;
     justify-content: center;
     align-items: center;

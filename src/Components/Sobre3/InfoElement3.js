@@ -6,7 +6,7 @@ export const SobreContainer = styled.div`
     display: flex;
     justify-content: center;
     height: 80vh;
-    background: ${theme.background1};
+    background: ${theme.background};
     min-width: 100vw;
 
     @media screen and (max-width: 1230px){

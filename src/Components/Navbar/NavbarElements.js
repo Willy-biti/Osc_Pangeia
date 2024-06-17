@@ -31,7 +31,7 @@ export const NavbarContainer = styled.div`
 `
 
 export const NavLogo = styled(LinkR)`
-    color: ${theme.secondary};
+    color: ${theme.primary};
     jusify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
@@ -83,7 +83,7 @@ export const NavItem = styled.li`
 `
 
 export const NavLinks = styled(LinkS)`
-    color: ${theme.secondary};
+    color: ${theme.primary};
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -97,14 +97,14 @@ export const NavLinks = styled(LinkS)`
 
     &.active,
     &:hover{
-        border-bottom: 3px solid ${theme.primary};
-        color: ${theme.primary};
+        border-bottom: 3px solid ${theme.secondary};
+        color: ${theme.secondary};
     }
 `
 
 export const NavLinkR = styled(LinkR)`
 
-    color: ${theme.secondary};
+    color: ${theme.primary};
     display: flex;
     align-items: center;
     text-decoration: none;

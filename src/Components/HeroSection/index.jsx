@@ -17,7 +17,7 @@ const HeroSection = ({id}) => {
                 <C.HeroBg>
                     <C.Content>
                         <C.Pincipe>
-                            <Typewriter />
+                            {/* <Typewriter /> */}
                         </C.Pincipe>
                         <C.CounterHero>
                             <CountdownTimer />

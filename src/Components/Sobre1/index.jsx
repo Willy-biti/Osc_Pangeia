@@ -18,7 +18,7 @@ import {
 } 
 from "./InfoElement";
 
-
+import img from "../../Assets/Photos/Logo.png"
 
 const SobrePangeia = ({
     id, 
@@ -27,7 +27,6 @@ const SobrePangeia = ({
     topLine, 
     headline, 
     description, 
-    img, 
     alt,
     
 }) => {

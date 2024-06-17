@@ -4,7 +4,7 @@ import theme from '../../Theme/theme';
 
 
 export const NoticiasContainer = styled.aside`
-    background: ${theme.background1};
+    background: ${theme.primary};
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,6 +31,7 @@ export const NoticiasBg = styled.div`
     width: 100%;
     height: 100%;
     overflow: hidden;
+    
 `
 
 
@@ -41,6 +42,7 @@ export const NoticiasContent = styled.div`
     height: 80%;
     justify-content: center;
     align-items: center;
+    
 
 
 
@@ -49,5 +51,7 @@ export const NoticiasContent = styled.div`
     h1{
         color: white;
     }
+
+
 `
 

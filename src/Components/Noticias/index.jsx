@@ -25,6 +25,7 @@ const Noticias = () => {
                     url='https://youtu.be/FHhkNoq9Q9g'
                     width='100%'
                     height='100%'
+                    style={{ borderRadius: '15px', overflow: 'hidden' }}
                     controls={true}
                     />
                 </NoticiasContent>

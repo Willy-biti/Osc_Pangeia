@@ -8,7 +8,7 @@ export const homeObjOne = {
     description:    'gfgbdfjkgfh dkfgsgfur kgflgsafi kgfufi glflh glhfgsg glflglah kjglghkaçgjc',
     buttonLabel:  'Aqui é pangeia !',
     imgStart: false,
-    img: '../../Assets/Photos/Sobre1.jpeg',
+    // img: '../../Assets/Photos/Sobre1.jpeg',
     alt: 'car',
 };
 

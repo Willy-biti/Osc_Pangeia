@@ -30,7 +30,7 @@ function Home() {
       <HeroSection {...IdInicio}/>  
       <SobrePangeia { ...homeObjOne}/>
       <Duvidas />
-      <Noticias />
+      {/* <Noticias /> */}
       <SobrePangeia2 />
       <SobrePangeia3 />
       <Gallary />
