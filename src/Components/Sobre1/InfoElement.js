@@ -14,7 +14,7 @@ min-width: 100vw;
 
 export const SobreWrapper = styled.div`
 z-index: 1;
-height: 660px;
+height: 600px;
 width: 80vw;
 max-width: auto;
 margin-top: 70px;

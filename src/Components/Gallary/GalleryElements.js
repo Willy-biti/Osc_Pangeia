@@ -6,7 +6,7 @@ export const GallaryContainer = styled.div`
     display: flex;
     justify-content: center;
     height: 600px;
-    background: ${theme.background};
+    background: ${theme.background1};
     min-width: 100vw;
 
     @media screen and (max-width: 550px){
@@ -85,7 +85,7 @@ export const GallaryCard = styled.div`
     transition: 0.6s;
     border-radius: 30px;
     background: ${theme.background};
-    border: 2px solid red;
+    border: 2px solid ${theme.primary};
     padding: 25px;
 
 `

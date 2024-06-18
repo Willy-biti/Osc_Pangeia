@@ -6,7 +6,7 @@ export const SobreContainer = styled.div`
     display: flex;
     justify-content: center;
     height: 80vh;
-    background: ${theme.background};
+    background: ${theme.primary};
     min-width: 100vw;
 
     @media screen and (max-width: 1230px){
@@ -80,7 +80,7 @@ export const SobreRowCardsInfoAno = styled.div`
     align-items: center;
     width: 100%;
     margin-top: 20px;
-    color: ${theme.primary};
+    color: ${theme.background};
     font-size: 24px;
 `
 export const SobreRowCardsInfoDesc = styled.div`

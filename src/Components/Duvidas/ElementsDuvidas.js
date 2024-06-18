@@ -9,7 +9,7 @@ export const Container = styled.div`
   right: 0px;
   transform: translate(-50%, -50%);
   width: 1000px;
-  height: 200px;
+  height: 250px;
   // background-color: green;
   box-shadow: 0 25px 30px rgba(0, 0, 0, 0.5);
   border-radius: 10px;  

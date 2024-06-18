@@ -5,7 +5,7 @@ export const ParceriaContainer = styled.div`
     display: flex;
     justify-content: center;
     height: 40vh;
-    background: ${Theme.background};
+    background: ${Theme.footer};
     min-width: 100vw;
 
     @media screen and (max-width: 570px) {
@@ -18,7 +18,7 @@ export const ParceriaContent = styled.div`
     flex-direction: column;
     justify-content: center;
     width: 75vw;
-    background: ${Theme.background};
+    // background: ${Theme.background};
 
     @media screen and (max-width: 760px){
         align-items: center;
@@ -40,7 +40,7 @@ export const ParceriaParceirosH1 = styled.div`
     height: 20%;
 
     h2{
-        color: ${Theme.secondary};
+        color: ${Theme.background};
 
         @media screen and (max-width: 570px) {
             margin-bottom: 40px;

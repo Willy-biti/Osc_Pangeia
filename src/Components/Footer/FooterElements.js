@@ -5,7 +5,7 @@ export const Rodape = styled.footer`
     display: flex;
     justify-content: center;
     height: 40vh;
-    background: ${theme.background};
+    background: ${theme.footer};
     min-width: 100vw;
 
     @media screen and (max-width: 800px){
@@ -42,7 +42,7 @@ export const RodapeDroit = styled.div`
     justify-content: space-between;
     width: 100%;
     height: 30%;
-    border-top: 1px solid ${theme.primary};
+    border-top: 1px solid ${theme.background};
 
 
     @media screen and (max-width: 760px){
@@ -70,7 +70,7 @@ export const RodapeContatos = styled.div`
 
 
 export const RodapeContatosTitle = styled.h3`
-    color: ${theme.secondary};
+    color: ${theme.background};
     font-size: 20px;
     margin-bottom: 15px;
     font-weight: bold;
@@ -82,7 +82,7 @@ export const RodapeContatosTitle = styled.h3`
 
 `
 export const RodapeContatosLink = styled.a`
-color: ${theme.primary};
+color: ${theme.background};
 margin-bottom: 10px;
 font-size: 14px;
 text-decoration: none;
@@ -136,7 +136,7 @@ export const RodapeRedes = styled.div`
 
 
 export const RodapeRedesLink = styled.a`
-color: ${theme.secondary};
+color: ${theme.background};
 margin: 15px;
 font-size: 14px;
 text-decoration: none;
@@ -154,7 +154,7 @@ align-items: center;
 
 
 export const LogoRodape = styled.h3`
-    color: ${theme.primary};
+    color: ${theme.background};
     font-size: 24px;
     font-weight: bold;
     cursor: pointer;
@@ -168,7 +168,7 @@ export const LogoRodape = styled.h3`
 `
 
 export const RodapeWebsitRights = styled.p`
-    color: ${theme.quatrieme};
+    color: ${theme.background};
     font-size: 11px;
     font-weight: bold;
     cursor: pointer;
@@ -183,7 +183,7 @@ export const RodapeWebsitRights = styled.p`
     }
 `
 export const RodapeProgrammeur = styled.a`
-color: ${theme.secondary};
+color: ${theme.background};
 font-size: 11px;
 text-decoration: none;
 cursor: pointer;

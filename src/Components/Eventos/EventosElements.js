@@ -6,7 +6,7 @@ export const EventosContainer = styled.div`
     display: flex;
     justify-content: center;
     height: 800px;
-    background: ${theme.background};
+    background: ${theme.primary};
     min-width: 100vw;
 
     @media screen and (max-width: 785px){
