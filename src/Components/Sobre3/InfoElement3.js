@@ -80,7 +80,7 @@ export const SobreRowCardsInfoAno = styled.div`
     align-items: center;
     width: 100%;
     margin-top: 20px;
-    color: ${theme.background};
+    color: ${theme.Title};
     font-size: 24px;
 `
 export const SobreRowCardsInfoDesc = styled.div`
@@ -89,6 +89,7 @@ export const SobreRowCardsInfoDesc = styled.div`
     align-items: center;
     width: 100%;
     margin-top: 20px;
+    color: ${theme.background};
 
     p{
         text-align: center;

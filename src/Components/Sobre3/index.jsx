@@ -1,7 +1,8 @@
 import React, {useState} from "react";
 import 'aos/dist/aos.css';
 import "./Sobre3.css";
-// import Modal from './Modal/Modal';
+import Modal from './Modal/Modal';
+import img1 from "../../Assets/Photos/camiseta1.png";
 
 import {
     SobreContainer,
@@ -33,7 +34,7 @@ const SobrePangeia3 = ({
                 <SobreContent>
                         <SobreRowCards>
                             <SobreRowCardsImg>
-                                {/* <img src={img1} width='100%' height='100%' alt={alt} /> */}
+                                <img src={img1} width='100%' height='100%' alt={alt} />
                             </SobreRowCardsImg>
                             <SobreRowCardsInfo>
                                 <SobreRowCardsInfopangeia><strong>{pangeia1}</strong></SobreRowCardsInfopangeia>
@@ -41,7 +42,7 @@ const SobrePangeia3 = ({
                                 <SobreRowCardsInfoDesc><p>Em homenagem ao educador e filósofo - <strong>Paulo Freire</strong></p></SobreRowCardsInfoDesc>
                                 <SobreRowCardsInfoButton>
                                     <ButtonModal onClick={openModal} >{button}</ButtonModal>
-                                    {/* <Modal showModal={showModal} setShowModal={setShowModal} /> */}
+                                    <Modal showModal={showModal} setShowModal={setShowModal} />
                                 </SobreRowCardsInfoButton>
                             </SobreRowCardsInfo>
                         </SobreRowCards>

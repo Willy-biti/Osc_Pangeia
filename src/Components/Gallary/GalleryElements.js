@@ -33,7 +33,7 @@ export const GallaryTitle = styled.div`
 
 export const GallaryH1 = styled.h1`
 font-size: 2.5rem;
-color: ${theme.secondary};
+color: ${theme.primary};
 align-text: center;
 
 @media screen and (max-width: 480px) {
@@ -84,7 +84,7 @@ export const GallaryCard = styled.div`
     height: 80%;
     transition: 0.6s;
     border-radius: 30px;
-    background: ${theme.background};
+    background: ${theme.primary};
     border: 2px solid ${theme.primary};
     padding: 25px;
 
@@ -94,8 +94,8 @@ export const GallaryCardTitle =styled.div`
     jiustify-content: center;
     align-items: center;
     width: auto;
-    height: 30%
-    color: ${theme.primary};
+    height: 30%;
+    color: ${theme.Title};
     font-size: 20px;
     text-align: center;
     margin-bottom: 20px;
@@ -108,8 +108,8 @@ export const GallaryCardTxt =styled.div`
     jiustify-content: center;
     align-items: center;
     width: auto;
-    height: 40%
-    color: ${theme.secondary};
+    height: 40%;
+    color: ${theme.background};
     font-size: 14px;
     text-align: center;
     // margin-top: 44px;
@@ -124,8 +124,8 @@ export const GallaryCardBtn =styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background: ${theme.background};
-    color: ${theme.primary};
+    background: ${theme.Title};
+    color: ${theme.background};
     border-radius: 10px;
     margin-top: 15%;
     cursor: pointer;
@@ -148,7 +148,7 @@ export const GallaryCardBtn =styled.div`
 `
 
 export const GallaryLink = styled(LinkR)`
-    color: ${theme.primary};
+    color: ${theme.background};
     jusify-self: flex-start;
     cursor: pointer;
     font-size: 1rem;
@@ -169,7 +169,7 @@ export const GallaryLink = styled(LinkR)`
 `
 
 export const RRR = styled(LinkR)`
-    color: ${theme.primary};
+    color: ${theme.background};
     jusify-self: flex-start;
     cursor: pointer;
     font-size: 1rem;

@@ -9,7 +9,7 @@ export const Container = styled.div`
   right: 0px;
   transform: translate(-50%, -50%);
   width: 1000px;
-  height: 250px;
+  height: 200px;
   // background-color: green;
   box-shadow: 0 25px 30px rgba(0, 0, 0, 0.5);
   border-radius: 10px;  
@@ -24,6 +24,11 @@ export const Content = styled.div`
   box-sizing: border-box;
   border-top-left-radius: 10px; 
   border-bottom-left-radius: 10px;
+  // display: flex;
+  // flex-direction: column;
+
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr;
 `;
 
 export const Content2 = styled.div`
@@ -35,4 +40,61 @@ export const Content2 = styled.div`
   border-bottom:  200px solid transparent;
   border-top-right-radius: 10px;  
   border-bottom-right-radius: 10px;
+
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+
+  // display: grid;
+  // grid-template-rows: 1fr 2fr 2fr;
+`;
+
+export const ContainerC2 = styled.div`
+  	display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+    height:
+
+    // background: green;
+`
+
+export const Icon = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: ${theme.background};
+
+  // background: red;
+`;
+
+export const Description = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: ${theme.background};
+  padding-left: 15px;
+  padding-right: 15px;
+    
+
+`;
+
+export const DivButton = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: ${theme.background}; 
+`;
+
+export const Button = styled.button`
+  width: 100px;
+  height: 40px;
+  background-color: ${theme.primary};
+  border: none;
+  color: ${theme.background};
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px;
+  font-weight: bold;
 `;

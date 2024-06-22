@@ -13,6 +13,7 @@ import Eventos from "../Components/Eventos";
 import ContainerFooter from "../Components/Footer";
 import Parceria from "../Components/Parceria";
 import Duvidas from "../Components/Duvidas";
+import DataSobre3 from "../Components/Sobre3/Data";
 
 
 function Home() {
@@ -32,7 +33,7 @@ function Home() {
       <Duvidas />
       {/* <Noticias /> */}
       <SobrePangeia2 />
-      <SobrePangeia3 />
+      <SobrePangeia3 { ...DataSobre3}/>
       <Gallary />
       <Eventos />
       <Parceria />

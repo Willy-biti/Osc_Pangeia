@@ -1,10 +1,10 @@
-export const DataSobre3 = {
+const DataSobre3 = {
     id: 'Sobre3',
     pangeia1: 'Pangeia',
     ano1: 2022,
     button: 'Saiba Mais!',
     description1:    'Em homenagem ao educador e filósofo:  ' ,
-    // img1: require('../../images/camiseta1.png'),
+    // : '../../Assets/Photos/rega.jpg',
 
     pangeia2: 'Pangeia',
     ano2: 'xxxx',
@@ -15,4 +15,4 @@ export const DataSobre3 = {
     alt: 'Camiseta',
 };
 
-
+export default DataSobre3;
