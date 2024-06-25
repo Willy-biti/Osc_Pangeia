@@ -14,6 +14,7 @@ import ContainerFooter from "../Components/Footer";
 import Parceria from "../Components/Parceria";
 import Duvidas from "../Components/Duvidas";
 import DataSobre3 from "../Components/Sobre3/Data";
+import Participantes from "../Components/Participantes";
 
 
 function Home() {
@@ -34,6 +35,7 @@ function Home() {
       {/* <Noticias /> */}
       <SobrePangeia2 />
       <SobrePangeia3 { ...DataSobre3}/>
+      <Participantes />
       <Gallary />
       <Eventos />
       <Parceria />
