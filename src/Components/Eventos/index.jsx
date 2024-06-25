@@ -2,9 +2,9 @@ import React, {useEffect} from "react";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
-// import Eift from "../../images/Eventos/EoftPerfil.jpeg";
-// import Fraid from "../../images/Eventos/Fraiburgo/FrProfil.jpeg";
-// import HaitiFoto from "../../images/Eventos/Haiti/Perfilcard.png"
+import Eift from "../../Assets/Photos/Logo.png";
+import Fraid from "../../Assets/Photos/Logo.png";
+import HaitiFoto from "../../Assets/Photos/Logo.png"
 
 import {
     EventosContainer,
@@ -34,7 +34,7 @@ const Eventos = () => {
                     <EventosWrapper>
 
                         <EventosCard data-aos="zoom-in">
-                            {/* <EventosIcon  src={Fraid}/> */}
+                            <EventosIcon  src={Fraid}/>
                             <EventosH2>Viagem Fraiburgo</EventosH2>
                             <EventosP>
                                 Viagem  para Fraiburgo, município catarinense .
@@ -45,7 +45,7 @@ const Eventos = () => {
                         </EventosCard>
 
                         <EventosCardM data-aos="zoom-in">
-                            {/* <EventosIcon  src={Eift}/> */}
+                            <EventosIcon  src={Eift}/>
                             <EventosH2>Eifa Pira Rupa</EventosH2>
                             <EventosP>
                                 Visita à escola Eifa Pira Rupa numa aldeia indígina em Palhoça
@@ -56,7 +56,7 @@ const Eventos = () => {
                         </EventosCardM>
 
                         <EventosCard data-aos="zoom-in">
-                            {/* <EventosIcon  src={HaitiFoto} /> */}
+                            <EventosIcon  src={HaitiFoto} />
                             <EventosH2>Festa haitiana</EventosH2>
                             <EventosP>
                                 Evento organizado para falar e mostar outro lado do Haiti. 

@@ -28,9 +28,9 @@ export const EventosH1 = styled.div`
     align-items: center;
     width: 100%
     height: 200px;
-    color: ${theme.primary};
+    color: ${theme.Title};
     font-size: 2.5rem;
-    margin-top: 30px;
+    margin-top: 60px;
 
     @media screen and (max-width: 785px){
         margin-bottom: 30px;
@@ -110,7 +110,7 @@ export const EventosP = styled.p`
     height: 40%;
     font-size: 1rem;
     text-align: center;
-    color: ${theme.secondary};
+    color: ${theme.Title};
     margin: 10px;
 `
 
@@ -121,7 +121,7 @@ export const BtnEnventos = styled.div`
     align-items: center;
     width: 100px;
     height: 30px;
-    background: ${theme.background};
+    background: ${theme.Title};
     margin-bottom: 20px;
     transition: 0.2s;
     border-radius: 10px;
@@ -133,7 +133,7 @@ export const BtnEnventos = styled.div`
 `
 
 export const BtnEntvosLink = styled(LinkR)`
-    color: ${theme.secondary};
+    color: ${theme.background};
     display: flex;
     justify-content: center;
     align-items: center;
