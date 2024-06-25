@@ -1,7 +1,8 @@
 import React from 'react';
 import  * as C from"./ElementsDuvidas";
 
-import { FaDonate } from 'react-icons/fa'
+import { FaDonate } from 'react-icons/fa';
+import {FaWpforms} from 'react-icons/fa6'
 
 function Duvidas() {
   return (
@@ -23,6 +24,25 @@ function Duvidas() {
               </C.DivButton>
             </C.Content>
             <C.Content2>
+              <C.OverlayDiv>
+              <C.Icon>
+                <FaWpforms style={{ 
+                  color: '#000', 
+                  fontSize: '40px', 
+                  margin: '10px',
+                   }}/>
+              </C.Icon>
+              <C.Description>
+                <p> Quer se tornar membro? clique em saiba mais para preencher o formulário</p>
+              </C.Description>
+              <C.DivButton>
+                <C.Button style={{
+                  background: '#000',
+                  color: ''
+                }}
+                >Apoie agora</C.Button>
+              </C.DivButton>
+              </C.OverlayDiv>
             </C.Content2>
         </C.Container>
     </>

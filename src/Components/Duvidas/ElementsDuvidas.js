@@ -40,13 +40,29 @@ export const Content2 = styled.div`
   border-bottom:  200px solid transparent;
   border-top-right-radius: 10px;  
   border-bottom-right-radius: 10px;
-
+  color: ${theme.background}
   // display: flex;
   // flex-direction: column;
   // align-items: center;
 
   // display: grid;
   // grid-template-rows: 1fr 2fr 2fr;
+`;
+
+export const OverlayDiv = styled.div`
+  position: absolute;
+  // top: 0;
+  // left: 0;
+  width: 450px;;
+  height: 100%;
+  // background-color: rgba(0, 0, 0, 0.5); // fundo transparente
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; // cor do texto
+
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr;
 `;
 
 export const ContainerC2 = styled.div`
