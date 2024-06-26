@@ -49,14 +49,14 @@ const Participantes = (
         <>
             <ParticipantesContainer>
                 <ParticipantesContext>
-                        <ParticipantesContextTitle></ParticipantesContextTitle>
+                        <ParticipantesContextTitle><h1>Particpantes</h1></ParticipantesContextTitle>
                         <ParticipantesContextP data-aos="zoom-in">
                         O números dos participantes desta associação cresce cada vez mais. Em média uma pessoa em duas semanas. O grupo que começou com 4 pessoas, atualmente  conta com mais de 83 participantes, no qual cerca de 50% estão ativos em atividades gerais e 30% em apenas na atividade esportiva e o restante é passivo. O Pangeia também conta com mais de 10 participantes (conexões) fora do Brasil. E contabilizando, mais de 20 ex- membros que ajudaram no processo de construção desta associação.
                         </ParticipantesContextP>
                         <ParticipantesContextStatistique>
                             <ParticipantesContextStatistiqueCards data-aos="zoom-in">
                                 <ParticipantesContextStatistiqueNumber>
-                                    + <CountUp end={83} duration={2}/>
+                                    + <CountUp end={100} duration={4}/>
                                 </ParticipantesContextStatistiqueNumber>
                                 <ParticipantesContextStatistiqueName>
                                     <h3>Participantes Atuais</h3>

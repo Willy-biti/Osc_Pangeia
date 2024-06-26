@@ -6,7 +6,7 @@ export const GallaryContainer = styled.div`
     display: flex;
     justify-content: center;
     height: 600px;
-    background: ${theme.background1};
+    background: ${theme.primary};
     min-width: 100vw;
 
     @media screen and (max-width: 550px){
@@ -33,7 +33,7 @@ export const GallaryTitle = styled.div`
 
 export const GallaryH1 = styled.h1`
 font-size: 2.5rem;
-color: ${theme.primary};
+color: ${theme.Title};
 align-text: center;
 
 @media screen and (max-width: 480px) {
@@ -84,8 +84,9 @@ export const GallaryCard = styled.div`
     height: 80%;
     transition: 0.6s;
     border-radius: 30px;
-    background: ${theme.primary};
-    border: 2px solid ${theme.primary};
+    background: ${theme.background1};
+    // border: 2px solid ${theme.primary};
+    border-radius: 50% 25% 50% 25% / 25% 50% 25% 50% ;
     padding: 25px;
 
 `
@@ -95,7 +96,7 @@ export const GallaryCardTitle =styled.div`
     align-items: center;
     width: auto;
     height: 30%;
-    color: ${theme.Title};
+    color: ${theme.primary};
     font-size: 20px;
     text-align: center;
     margin-bottom: 20px;
@@ -109,7 +110,7 @@ export const GallaryCardTxt =styled.div`
     align-items: center;
     width: auto;
     height: 40%;
-    color: ${theme.background};
+    color: ${theme.Title};
     font-size: 14px;
     text-align: center;
     // margin-top: 44px;
@@ -124,7 +125,7 @@ export const GallaryCardBtn =styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background: ${theme.Title};
+    background: ${theme.primary};
     color: ${theme.background};
     border-radius: 10px;
     margin-top: 15%;

@@ -40,6 +40,7 @@ justify-content: center;
 align-items: center;
 width: 80vw;
 height: 15vh;
+color: ${theme.Title};
 
 @media screen and (max-width: 600px){
     display: none;
@@ -53,6 +54,7 @@ align-items: center;
 width: 80vw;
 height: auto;
 text-align: center;
+color: ${theme.Title};
 `
 
 export const ParticipantesContextStatistique = styled.div`
@@ -62,6 +64,7 @@ grid-template-columns: repeat(3, 1fr);
 align-items: center;
 width: 80vw;
 height: 40vh;
+
 
 @media screen and (max-width: 480px){
     grid-template-columns: repeat(1, 1fr);
@@ -95,8 +98,8 @@ justify-content: center;
 width: 100%;
 height: 70%;
 font-size: 9vw;
-color: red;
 font-weight: bold;
+color: ${theme.primary};
 
 @media screen and (max-width: 480px){
         font-size: 17vw;
@@ -114,9 +117,10 @@ align-items: center;
 width: 100%;
 height: 30%;
 
+
 h3{
     text-align: center;
-    color: red;
+    color: ${theme.primary};
 }
 
 @media screen and (max-width: 480px){
@@ -125,6 +129,7 @@ h3{
     h3{
         padding-left: 10px;
         padding-right: 10px;
+        color: ${theme.primary};
     }
 }
 `
@@ -187,7 +192,7 @@ export const ParticipantesCentralP = styled.div`
     align-items: center;
     width: 80vw;
     height: 100%;
-    color: ${theme.secondary};
+    color: ${theme.Title};
 
     @media screen and (max-width: 660px){
         flex-direction: column;
@@ -201,6 +206,7 @@ export const ParticipantesTxtP = styled.div`
     align-items: center;
     width: 50%;
     height: 100%;
+    color: ${theme.Title};
 
     @media screen and (max-width: 660px){
         justify-content: center;
@@ -257,6 +263,7 @@ export const ParticipantesTxt = styled.div`
     align-items: center;
     width: 50%;
     height: 100%;
+    color: ${theme.Title};
 
     @media screen and (max-width: 660px){
         justify-content: center;
@@ -280,7 +287,7 @@ export const ParticipantesCliqueRadius = styled.div`
     width: 50%;
     height: 50%;
     border-radius: 35% 64% 77% 26% / 73% 54% 45% 19%;
-    background: ${theme.background1};
+    background: ${theme.Title};
     color: white;
     transition: .6s;
     cursor: pointer;
@@ -302,7 +309,7 @@ export const ParticipantesCliqueRadiusP = styled.div`
     width: 50%;
     height: 50%;
     border-radius: 35% 64% 77% 26% / 73% 54% 45% 19%;
-    background: ${theme.background2};
+    background: ${theme.Title};
     color: black;
     transition: .6s;
     cursor: pointer;
