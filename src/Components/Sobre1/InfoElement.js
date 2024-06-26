@@ -10,7 +10,7 @@ justify-content: center;
 color:${theme.background};
 background:  ${theme.primary};
 min-width: 100vw;
-
+font-weight: bold;
 //     position: relative;
 //     overflow: hidden;
 

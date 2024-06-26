@@ -5,6 +5,7 @@ export const Rodape = styled.footer`
     display: flex;
     justify-content: center;
     height: 40vh;
+    font-weight: bold;
     background: ${theme.footer};
     min-width: 100vw;
 

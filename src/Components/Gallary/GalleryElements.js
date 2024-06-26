@@ -8,6 +8,7 @@ export const GallaryContainer = styled.div`
     height: 600px;
     background: ${theme.primary};
     min-width: 100vw;
+    font-weight: bold;
 
     @media screen and (max-width: 550px){
         height: 1000px;

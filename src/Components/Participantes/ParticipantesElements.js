@@ -5,6 +5,7 @@ import { Link as LinkR } from "react-router-dom";
 export const CliqueLinkR = styled(LinkR)`
     width: 100%;
     height: 100%;
+    font-weight: bold;
 
     color: ${theme.primary};
     display: flex;
@@ -32,6 +33,7 @@ width: 100vw;
 height: auto;
 background: ${theme.background1};
 color: white;
+font-weight: bold;
 `
 
 export const ParticipantesContextTitle = styled.div`
@@ -41,6 +43,7 @@ align-items: center;
 width: 80vw;
 height: 15vh;
 color: ${theme.Title};
+font-weight: bold;
 
 @media screen and (max-width: 600px){
     display: none;
@@ -55,6 +58,7 @@ width: 80vw;
 height: auto;
 text-align: center;
 color: ${theme.Title};
+font-weight: bold;
 `
 
 export const ParticipantesContextStatistique = styled.div`
@@ -116,6 +120,7 @@ justify-content: center;
 align-items: center;
 width: 100%;
 height: 30%;
+font-weight: bold;
 
 
 h3{
@@ -141,6 +146,7 @@ flex-direction: column;
 align-items: center;
 width: 100vw;
 height: auto;
+font-weight: bold;
 `
 
 export const ParticipantesAtuais = styled.div`

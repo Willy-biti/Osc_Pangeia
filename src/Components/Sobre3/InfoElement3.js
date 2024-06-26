@@ -8,6 +8,7 @@ export const SobreContainer = styled.div`
     height: 80vh;
     background: ${theme.primary};
     min-width: 100vw;
+    font-weight: bold;
 
     @media screen and (max-width: 1230px){
         height: auto;

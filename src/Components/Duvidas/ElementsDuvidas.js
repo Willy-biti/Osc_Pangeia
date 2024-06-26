@@ -10,6 +10,7 @@ export const Container = styled.div`
   transform: translate(-50%, -50%);
   width: 1000px;
   height: 200px;
+  font-weight: bold;
   // background-color: green;
   box-shadow: 0 25px 30px rgba(0, 0, 0, 0.5);
   border-radius: 10px;  
@@ -60,6 +61,7 @@ export const OverlayDiv = styled.div`
   align-items: center;
   justify-content: center;
   color: white; // cor do texto
+  font-weight: bold;
 
   display: grid;
   grid-template-rows: 1fr 2fr 2fr;

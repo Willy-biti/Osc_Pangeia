@@ -4,6 +4,7 @@ import theme from "../../Theme/theme";
 export const SobreContainer = styled.div`
 color:${theme.secondary};
 background:  ${theme.background1};
+font-weight: bold;
 // min-width: 100vw;
 
 // @media screen and (max-width: 768px) {
