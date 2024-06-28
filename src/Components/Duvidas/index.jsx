@@ -17,7 +17,7 @@ function Duvidas() {
                    }}/>
               </C.Icon>
               <C.Description>
-                <p> Com sua ajuda, o ICOM pode trabalhar para fortalecer a sociedade civil da cidade, coletar e organizar conhecimento do território, e fomentar o investimento social privado na região</p>
+                <p> jkfhgjkfdsgjgjhgl lkhgfhgufg kjgfhguçg uhguhafkgçhfaj</p>
               </C.Description>
               <C.DivButton>
                 <C.Button>Apoie agora</C.Button>
@@ -40,7 +40,7 @@ function Duvidas() {
                   background: '#000',
                   color: ''
                 }}
-                >Apoie agora</C.Button>
+                >Clique aqui</C.Button>
               </C.DivButton>
               </C.OverlayDiv>
             </C.Content2>

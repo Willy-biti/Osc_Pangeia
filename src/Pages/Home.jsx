@@ -16,6 +16,8 @@ import Duvidas from "../Components/Duvidas";
 import DataSobre3 from "../Components/Sobre3/Data";
 import Participantes from "../Components/Participantes";
 
+import CarouselSection from "../Components/CarrousselSobre3/CarrousselSection"
+
 
 function Home() {
 
@@ -40,6 +42,8 @@ function Home() {
       <Eventos />
       <Parceria />
       <ContainerFooter /> 
+
+      <CarouselSection />
       
     </>
   )

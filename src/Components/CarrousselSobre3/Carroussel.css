@@ -1,0 +1,50 @@
+/* .carousel .slide {
+    background: none;
+  }
+  
+  .carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+    opacity: 1;
+  }
+  
+  .carousel .control-prev.control-arrow:before {
+    border-right: 8px solid #007bff;
+  }
+  
+  .carousel .control-next.control-arrow:before {
+    border-left: 8px solid #007bff;
+  }
+  
+  .ReactModal__Overlay {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+  }
+   */
+
+   .carousel .slide {
+    background: none;
+  }
+  
+  .carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+    opacity: 1;
+  }
+  
+  .carousel .control-prev.control-arrow:before {
+    border-right: 8px solid #007bff;
+  }
+  
+  .carousel .control-next.control-arrow:before {
+    border-left: 8px solid #007bff;
+  }
+  
+  .carousel .control-dots {
+    bottom: 0; /* Move the dots to the bottom */
+  }
+  
+  .carousel .control-dots .dot {
+    background: #007bff;
+    box-shadow: none;
+  }
+  
+  .ReactModal__Overlay {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+  }
+  

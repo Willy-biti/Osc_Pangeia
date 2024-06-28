@@ -3,7 +3,7 @@ import theme from './theme';
 
 export const GlobalStyle = createGlobalStyle`
 
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');;
+    // @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');;
 
     *{
 
@@ -31,6 +31,7 @@ export const GlobalStyle = createGlobalStyle`
     body{
         background: ${theme.background1};
         color: ${theme.primary};
+        font-family: 'Nunito', sans-serif;
     }
 
     ul {
