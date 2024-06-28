@@ -7,7 +7,7 @@ export const CliqueLinkR = styled(LinkR)`
     height: 100%;
     font-weight: bold;
 
-    color: ${theme.primary};
+    color: ${theme.background};
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@ justify-content: center;
 align-items: center;
 width: 80vw;
 height: 15vh;
-color: ${theme.Title};
+color: ${theme.secondary};
 font-weight: bold;
 
 @media screen and (max-width: 600px){
@@ -103,7 +103,7 @@ width: 100%;
 height: 70%;
 font-size: 9vw;
 font-weight: bold;
-color: ${theme.primary};
+color: ${theme.secondary};
 
 @media screen and (max-width: 480px){
         font-size: 17vw;
@@ -125,7 +125,7 @@ font-weight: bold;
 
 h3{
     text-align: center;
-    color: ${theme.primary};
+    color: ${theme.secondary};
 }
 
 @media screen and (max-width: 480px){
@@ -134,7 +134,7 @@ h3{
     h3{
         padding-left: 10px;
         padding-right: 10px;
-        color: ${theme.primary};
+        color: ${theme.secondary};
     }
 }
 `
@@ -235,6 +235,7 @@ export const ParticipantesTitleP = styled.div`
     justify-content: right;
     width: 100%;
     height: 30%;
+    color: ${theme.secondary};
 
     @media screen and (max-width: 660px){
         justify-content: center;
@@ -293,8 +294,7 @@ export const ParticipantesCliqueRadius = styled.div`
     width: 50%;
     height: 50%;
     border-radius: 35% 64% 77% 26% / 73% 54% 45% 19%;
-    background: ${theme.Title};
-    color: white;
+    background: ${theme.secondary};
     transition: .6s;
     cursor: pointer;
 
@@ -315,8 +315,7 @@ export const ParticipantesCliqueRadiusP = styled.div`
     width: 50%;
     height: 50%;
     border-radius: 35% 64% 77% 26% / 73% 54% 45% 19%;
-    background: ${theme.Title};
-    color: black;
+    background: ${theme.secondary};
     transition: .6s;
     cursor: pointer;
 
@@ -335,6 +334,7 @@ export const ParticipantesTitle = styled.div`
     align-items: center;
     width: 100%;
     height: 30%;
+    color: ${theme.secondary};
 
     @media screen and (max-width: 660px){
         justify-content: center;

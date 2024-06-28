@@ -16,7 +16,8 @@ import Duvidas from "../Components/Duvidas";
 import DataSobre3 from "../Components/Sobre3/Data";
 import Participantes from "../Components/Participantes";
 
-import CarouselSection from "../Components/CarrousselSobre3/CarrousselSection"
+// import CarouselSection from "../Components/CarrousselSobre3/CarrousselSection";
+// import Equipe from "../Components/Equipe";
 
 
 function Home() {
@@ -43,7 +44,8 @@ function Home() {
       <Parceria />
       <ContainerFooter /> 
 
-      <CarouselSection />
+      {/* <CarouselSection />
+      <Equipe /> */}
       
     </>
   )

@@ -5,7 +5,7 @@ export const ParceriaContainer = styled.div`
     display: flex;
     justify-content: center;
     height: 40vh;
-    background: ${Theme.footer};
+    background: ${Theme.primary};
     min-width: 100vw;
 
     @media screen and (max-width: 570px) {
