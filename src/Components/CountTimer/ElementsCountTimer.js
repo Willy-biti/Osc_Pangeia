@@ -11,7 +11,7 @@ export const CountdownContainer = styled.div`
 export const ContentWrapper = styled.div`
   // width: 40%; /* Ocupa 40% da largura da tela */
   // background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente */
-  // background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
   border-radius: 10px;
   // text-align: center;

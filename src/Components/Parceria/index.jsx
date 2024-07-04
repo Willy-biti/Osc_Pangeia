@@ -1,8 +1,8 @@
 import React from "react";
 
-import img1 from '../../Assets/Photos/rega.jpg';
-import img2 from '../../Assets/Photos/rega.jpg';
-import img3 from '../../Assets/Photos/rega.jpg';
+import img1 from '../../Assets/Photos/Praceiros/barrigaverde.png';
+import img2 from '../../Assets/Photos/Praceiros/escola.png';
+import img3 from '../../Assets/Photos/Praceiros/Sinjusc.png';
 
 import {
     ParceriaContainer,

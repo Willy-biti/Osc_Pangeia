@@ -7,7 +7,7 @@ import IdInicio from "../Components/HeroSection/DataHero";
 import SobrePangeia from "../Components/Sobre1";
 import {homeObjOne} from "../Components/Sobre1/Data";
 import SobrePangeia2 from "../Components/Sobre2";
-import SobrePangeia3 from "../Components/Sobre3";
+// import SobrePangeia3 from "../Components/Sobre3";
 import Gallary from "../Components/Gallary";
 import Eventos from "../Components/Eventos";
 import ContainerFooter from "../Components/Footer";
@@ -15,9 +15,7 @@ import Parceria from "../Components/Parceria";
 import Duvidas from "../Components/Duvidas";
 import DataSobre3 from "../Components/Sobre3/Data";
 import Participantes from "../Components/Participantes";
-
-// import CarouselSection from "../Components/CarrousselSobre3/CarrousselSection";
-// import Equipe from "../Components/Equipe";
+import Sobre3 from "../Components/SobreTree";
 
 
 function Home() {
@@ -35,17 +33,14 @@ function Home() {
       <HeroSection {...IdInicio}/>  
       <SobrePangeia { ...homeObjOne}/>
       <Duvidas />
-      {/* <Noticias /> */}
       <SobrePangeia2 />
-      <SobrePangeia3 { ...DataSobre3}/>
+      {/* <SobrePangeia3 { ...DataSobre3}/> */}
+      <Sobre3 />
       <Participantes />
       <Gallary />
       <Eventos />
       <Parceria />
-      <ContainerFooter /> 
-
-      {/* <CarouselSection />
-      <Equipe /> */}
+      <ContainerFooter />
       
     </>
   )

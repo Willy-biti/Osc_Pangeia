@@ -12,7 +12,7 @@ import {
 
 const CountdownTimer = () => {
   const calculateTimeLeft = () => {
-    const difference = +new Date('2024-07-11T23:59:59') - +new Date();
+    const difference = +new Date('2024-08-17T23:59:59') - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
