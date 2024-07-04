@@ -6,7 +6,7 @@ import Modal from './Modal/Modal';
 import items from './Items';
 import { GrCaretPrevious, GrCaretNext } from 'react-icons/gr';
 
-const Index = () => {
+const Sobre3 = () => {
   const [isModalOpen, setModalOpen] = useState(false);
   const [modalContent, setModalContent] = useState({});
 
@@ -85,7 +85,7 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Sobre3;
 
 
 
