@@ -8,151 +8,100 @@ export const GallaryContainer = styled.div`
     display: flex;
     justify-content: center;
     height: 600px;
-    background: ${theme.background1};
-    // background-image: url();
-    // background-size: cover;
-    // background-position: center;
-    min-width: 100vw;
-    font-weight: bold;
-
-    @media screen and (max-width: 550px){
-        height: 1000px;
-    }
 `
 
 export const GallaryContent = styled.div`
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
-    width: 80vw;
-    max-width: 1200px;
-`
-
-export const GallaryTitle = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 20%;
-`
-
-export const GallaryH1 = styled.h1`
-font-size: 2.5rem;
-color: ${theme.Title};
-align-text: center;
-
-@media screen and (max-width: 480px) {
-    font-size: 2rem;
-}
-`
-
-export const GallaryContext = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 80%;
-
-    @media screen and (max-width: 550px){
-        flex-direction: column;
-    }
-`
-
-export const GallaryPhotos = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 80%;
-
-    @media screen and (max-width: 550px){
-        width: 100%;
-    }
-`
-export const GallaryVideos = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 80%;
-    
-    @media screen and (max-width: 550px){
-        width: 100%;
-    }
-`
-export const GallaryCard = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 80%;
-    height: 80%;
-    transition: 0.6s;
-    // border-radius: 30px;
-    background: ${theme.background1};
-    // border: 2px solid ${theme.primary};
-    // border-radius: 50% 25% 50% 25% / 25% 50% 25% 50% ;
-    padding: 25px;
-
 `
-export const GallaryCardTitle =styled.div`
-    display: flex;
-    jiustify-content: center;
-    align-items: center;
-    width: auto;
-    height: 30%;
-    color: ${theme.primary};
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 20px;
-    font-weight: bold;
-
-    // background: blue;
-`
-export const GallaryCardTxt =styled.div`
-    display: flex;
-    jiustify-content: center;
-    align-items: center;
-    width: auto;
-    height: 40%;
-    color: ${theme.Title};
-    font-size: 14px;
-    text-align: center;
-    // margin-top: 44px;
-    // max-width: 600px;
-    cursor: pointer;
-    transition: 0.6s;
-`
-
-export const GallaryCardBtn =styled.div`
-    width: 150px;
-    height: 40px;
+export const ContentTitle = styled.div`
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: ${theme.primary};
-    color: ${theme.background};
-    border-radius: 10px;
-    margin-top: 15%;
-    cursor: pointer;
-    font-weight: bold;
-    transition: 0.6s;
-    margin-bottom: 20px;
-    &:hover{
-        // background: ${theme.primary};
-        // color: ${theme.secondary};
-        transform: scale(0.90);
-    }
-    @media screen and (max-width: 300px) {
-        background: transparent;
-        trasition: 0.6s;
-        
-        &:hover{
-            tranform: scale(0.90)
-        }
-    }
 `
+export const ContentContent = styled.div`
+    height: 80%;
+    display: flex;
+    justify-content: center;
+`
+
+export const DivLeft = styled.div`
+    flex: 1;
+    display: flex;
+    justify-content: center;
+`
+
+export const DivLeftBaixo = styled.div`
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 150px;  
+    border-radius: 50px 0 50px 0;
+    background: ${theme.secondary};
+    border: 1px solid ${theme.secondary};
+    // left: 0;
+    z-index: 1;
+`
+
+export const DivLeftCima = styled.div`
+    position: absolute;
+    top: 200px;  // ajuste conforme necessário
+    left: -30px; 
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    border-radius: 0 50px 0 50px ;
+    background: ${theme.primary};
+    z-index: 2;
+
+`
+
+export const DivRight = styled.div`
+    flex: 1;
+    display: flex;
+    justify-content: center;
+`
+
+export const DivRightBaixo = styled.div`
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 150px;  
+    border-radius: 0 50px 0 50px ;
+    border: 1px solid ${theme.secondary};
+    background: ${theme.secondary};
+    // left: 0;
+    z-index: 1;
+`
+
+export const DivRightCima = styled.div`
+    position: absolute;
+    top: 200px;  // ajuste conforme necessário
+    right: -30px; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    border-radius: 50px 0 50px 0;
+    background: ${theme.primary};
+    z-index: 2;
+`
+
+export const TitleVideo = styled.div`
+    display: flex;
+    justify-content: center;
+`
+export const DescVideo = styled.div`
+    display: flex;
+    justify-content: center;
+`
+
 
 export const GallaryLink = styled(LinkR)`
     color: ${theme.background};

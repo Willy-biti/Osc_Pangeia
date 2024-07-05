@@ -45,39 +45,20 @@ const Navbar2 = ({ toggle }) => {
                         <MobileIcon onClick={toggle}>
                             <FaBars />
                         </MobileIcon>
-                        {/* <NavMenu>
+                        <NavMenu>
                             <NavItem>
-                                <NavLinks to='Inicio'
-                                    smooth={true}
-                                    // duration={600}
-                                    spy={true}
-                                >Inicio</NavLinks>
+                                <NavLinkR to='/doar'>Doação</NavLinkR>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to='Sobre1'
-                                    smooth={true}
-                                    // duration={600}
-                                    spy={true}
-                                >Sobre pangeia</NavLinks>
+                                <NavLinkR to='/fotos'>Fotos</NavLinkR>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to='Gallery'
-                                    smooth={true}
-                                    // duration={600}
-                                    spy={true}
-                                >Galeria</NavLinks>
-                            </NavItem>
-                            <NavItem>
-                                <NavLinks to='Eventos'
-                                    smooth={true}
-                                    // duration={600}
-                                    spy={true}
-                                >Eventos</NavLinks>
+                                <NavLinkR to='/videos'>Videos</NavLinkR>
                             </NavItem>
                             <NavItem>
                                 <NavLinkR to='/contato'>Contato</NavLinkR>
                             </NavItem>
-                        </NavMenu> */}
+                        </NavMenu>
                     </NavbarContainer>
                 </Nav>
             </IconContext.Provider>
