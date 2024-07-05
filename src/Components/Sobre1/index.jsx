@@ -45,7 +45,7 @@ const SobrePangeia = ({
                             <Heading>{headline}</Heading>
                             <Subtitle>{description}</Subtitle>
                             <SaibaMaisItem >
-                                <BtnWrapLinkR to="/historia">Saiba Mais! </BtnWrapLinkR>
+                                <BtnWrapLinkR to="/aboutus">Saiba Mais! </BtnWrapLinkR>
                             </SaibaMaisItem>
                         </TextWrapper>
                         </Column1>

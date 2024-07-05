@@ -4,7 +4,7 @@ import theme from '../../Theme/theme';
 
 export const Container = styled.div`
   position: absolute;
-  top: 107%;
+  top: 108%;
   left: 50%;
   right: 0px;
   transform: translate(-50%, -50%);

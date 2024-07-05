@@ -2,7 +2,7 @@ import {useState} from "react";
 import Navbar from '../Components/Navbar';
 import Sidebar from '../Components/Sidebar';
 import HeroSection from '../Components/HeroSection';
-import Noticias from "../Components/Noticias";
+// import Noticias from "../Components/Noticias";
 import IdInicio from "../Components/HeroSection/DataHero";
 import SobrePangeia from "../Components/Sobre1";
 import {homeObjOne} from "../Components/Sobre1/Data";
@@ -13,8 +13,8 @@ import Eventos from "../Components/Eventos";
 import ContainerFooter from "../Components/Footer";
 import Parceria from "../Components/Parceria";
 import Duvidas from "../Components/Duvidas";
-import DataSobre3 from "../Components/Sobre3/Data";
-import Participantes from "../Components/Participantes";
+// import DataSobre3 from "../Components/Sobre3/Data";
+// import Participantes from "../Components/Participantes";
 import Sobre3 from "../Components/SobreTree";
 
 
@@ -36,7 +36,7 @@ function Home() {
       <SobrePangeia2 />
       {/* <SobrePangeia3 { ...DataSobre3}/> */}
       <Sobre3 />
-      <Participantes />
+      {/* <Participantes /> */}
       <Gallary />
       <Eventos />
       <Parceria />

@@ -61,9 +61,6 @@ const Navbar = ({ toggle }) => {
                                 >Sobre pangeia</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinkR to='/participantes'>Participantes</NavLinkR>
-                            </NavItem>
-                            <NavItem>
                                 <NavLinks to='Gallery'
                                     smooth={true}
                                     // duration={600}

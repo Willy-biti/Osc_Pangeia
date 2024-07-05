@@ -5,7 +5,7 @@ export const homeObjOne = {
     lighTexDesc: true,
     topLine: 'Pangeia',
     headline: 'O que é pangeia?',
-    description:    'gfgbdfjkgfh dkfgsgfur kgflgsafi kgfufi glflh glhfgsg glflglah kjglghkaçgjc',
+    description:    'Somos uma organização da sociedade civil  voltada para a integração entre migrantes e imigrantes na cidade de Florianópolis',
     buttonLabel:  'Aqui é pangeia !',
     imgStart: false,
     // img: '../../Assets/Photos/Sobre1.jpeg',

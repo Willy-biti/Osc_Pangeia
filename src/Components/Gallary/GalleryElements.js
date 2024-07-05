@@ -2,11 +2,16 @@ import styled from "styled-components";
 import theme from "../../Theme/theme";
 import { Link as LinkR } from "react-router-dom";
 
+// import Img from "../../Assets/Photos/rega.jpg";
+
 export const GallaryContainer = styled.div`
     display: flex;
     justify-content: center;
     height: 600px;
-    background: ${theme.primary};
+    background: ${theme.background1};
+    // background-image: url();
+    // background-size: cover;
+    // background-position: center;
     min-width: 100vw;
     font-weight: bold;
 
@@ -84,10 +89,10 @@ export const GallaryCard = styled.div`
     width: 80%;
     height: 80%;
     transition: 0.6s;
-    border-radius: 30px;
+    // border-radius: 30px;
     background: ${theme.background1};
     // border: 2px solid ${theme.primary};
-    border-radius: 50% 25% 50% 25% / 25% 50% 25% 50% ;
+    // border-radius: 50% 25% 50% 25% / 25% 50% 25% 50% ;
     padding: 25px;
 
 `

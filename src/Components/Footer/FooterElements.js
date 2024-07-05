@@ -6,7 +6,7 @@ export const Rodape = styled.footer`
     justify-content: center;
     height: 40vh;
     font-weight: bold;
-    background: ${theme.primary};
+    background: ${theme.footer};
     min-width: 100vw;
 
     @media screen and (max-width: 800px){

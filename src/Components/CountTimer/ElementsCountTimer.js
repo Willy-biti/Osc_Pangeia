@@ -23,7 +23,7 @@ export const ContentWrapper = styled.div`
 `;
 
 export const Title = styled.h1`
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   font-size: 45px;
   width: 60%;
   // background: blue;

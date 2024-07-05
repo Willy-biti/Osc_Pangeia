@@ -7,7 +7,7 @@ export const EventosContainer = styled.div`
     justify-content: center;
     height: 800px;
     font-weight: bold;
-    background: ${theme.background1};
+    background: ${theme.primary};
     min-width: 100vw;
 
     @media screen and (max-width: 785px){
@@ -62,7 +62,7 @@ export const EventosCard = styled.div`
     height: 350px;
     border-radius: 10px;
     margin: 5px;
-    background: ${theme.primary};
+    background: ${theme.background1};
 
     &:hover {
         cursor:pointer;
@@ -82,7 +82,7 @@ export const EventosCardM = styled.div`
     height: 380px;
     border-radius: 10px;
     margin: 5px;
-    background: ${theme.primary};
+    background: ${theme.background1};
 
     &:hover {
         cursor:pointer;
