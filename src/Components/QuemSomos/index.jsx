@@ -15,7 +15,7 @@ function QuemSomos() {
             </C.Content>
         </C.Container>
         <Equipe />
-            
+
     </>
   )
 }

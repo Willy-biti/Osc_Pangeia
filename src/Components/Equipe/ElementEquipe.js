@@ -60,14 +60,20 @@ export const CardImage = styled.img`
   height: 100px;
   border-radius: 50%;
   margin-bottom: 20px;
+
+  background-size: cover;
+    background-position: center;
+    position: relative;   
 `;
 
 export const CardTitle = styled.h3`
   margin-bottom: 5px;
+  background: rgba(0, 0, 0, 0.7);
 `;
 
 export const CardRole = styled.p`
   margin-bottom: 10px;
+  background: rgba(0, 0, 0, 0.7);
 `;
 
 export const MoreButton = styled.button`
