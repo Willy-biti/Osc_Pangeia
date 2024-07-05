@@ -1,5 +1,6 @@
 // src/Components/Equipe/items.js
 import Img1 from '../../Assets/Photos/Equipe/Will.jpeg';
+import Img2 from '../../Assets/Photos/Equipe/Dani.jpeg';
 
 export const teamMembers = [
     {
@@ -11,10 +12,10 @@ export const teamMembers = [
     },
     {
       id: 2,
-      name: 'Maria Souza',
-      role: 'Desenvolvedora Back-End',
+      name: 'Daniel Miranda',
+      role: 'Tesoureiro',
       bio: 'Especialista em banco de dados e APIs.',
-      image: Img1,
+      image: Img2,
     },
     // Adicione mais membros aqui
     {

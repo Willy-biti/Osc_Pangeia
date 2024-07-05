@@ -45,7 +45,7 @@ const Navbar2 = ({ toggle }) => {
                         <MobileIcon onClick={toggle}>
                             <FaBars />
                         </MobileIcon>
-                        <NavMenu>
+                        {/* <NavMenu>
                             <NavItem>
                                 <NavLinks to='Inicio'
                                     smooth={true}
@@ -77,7 +77,7 @@ const Navbar2 = ({ toggle }) => {
                             <NavItem>
                                 <NavLinkR to='/contato'>Contato</NavLinkR>
                             </NavItem>
-                        </NavMenu>
+                        </NavMenu> */}
                     </NavbarContainer>
                 </Nav>
             </IconContext.Provider>
