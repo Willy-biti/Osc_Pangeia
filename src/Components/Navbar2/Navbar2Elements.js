@@ -4,7 +4,7 @@ import { Link as LinkS } from "react-scroll";
 import theme from "../../Theme/theme";
 
 export const Nav = styled.nav`
-    background: 'transparent';
+    background: ${theme.footer};
     height: 80px;
     width: 100vw ;   
     // margin-top: -80px;

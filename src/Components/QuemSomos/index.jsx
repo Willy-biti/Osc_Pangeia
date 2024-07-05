@@ -1,20 +1,21 @@
 import * as C from "./ElementsQuemSomos";
+import { DataAbout } from "./DataQuemSomos";
+import Equipe from "../Equipe";
 
 function QuemSomos() {
   return (
     <>
         <C.Container>
             <C.Content>
-                <C.Header>
-                    <C.DescHeader>
-                        hfdgfj
-                    </C.DescHeader>
-                </C.Header>
-                <C.Documentario>
-                    ggggggggggg
-                </C.Documentario>
+                <C.DiveText>
+                    <C.Text>
+                        {DataAbout.desc}
+                    </C.Text>
+                </C.DiveText>
             </C.Content>
         </C.Container>
+        <Equipe />
+            
     </>
   )
 }

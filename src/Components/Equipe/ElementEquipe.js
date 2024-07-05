@@ -5,6 +5,10 @@ export const TeamSection = styled.section`
   padding: 40px 20px;
   background: #f8f8f8;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 `;
 
 export const TeamTitle = styled.h2`
@@ -18,8 +22,9 @@ export const TeamDescription = styled.p`
 `;
 
 export const TeamGallery = styled.div`
+  width: 80%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 `;
 

@@ -1,7 +1,8 @@
 import QuemSomos from "../Components/QuemSomos";
 import {useState} from "react";
 import Sidebar from "../Components/Sidebar";
-import Navbar from "../Components/Navbar";
+import Navbar2 from "../Components/Navbar2";
+import Footer from "../Components/Footer";
 
 
 function AboutUs() {
@@ -14,8 +15,9 @@ function AboutUs() {
   return (
     <>
       <Sidebar isOpen={isOpen} toggle={toggle}/>
-      <Navbar toggle={toggle}/>
+      <Navbar2 toggle={toggle}/>
       <QuemSomos />
+      <Footer />
     </>
   )
 }
