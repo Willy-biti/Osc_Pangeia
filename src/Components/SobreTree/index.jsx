@@ -184,17 +184,17 @@ const Sobre3 = () => {
         >
           {items.map((item) => (
             <Content key={item.id}>
+              <Div2>
+                <Title>{item.title}</Title>
+                <Description>{item.description}</Description>
+                <Button onClick={() => handleOpenModal(item)}>Abrir</Button>
+              </Div2>
               <Div1>
                 <Div1Baixo />
                 <Div1Cima>
                 <img src={item.Photo} alt={item.title} style={{ width: '80%', height: '100%', objectFit: 'cover' }} />
                 </Div1Cima>
               </Div1>
-              <Div2>
-                <Title>{item.title}</Title>
-                <Description>{item.description}</Description>
-                <Button onClick={() => handleOpenModal(item)}>Abrir</Button>
-              </Div2>
             </Content>
           ))}
         </Carousel>

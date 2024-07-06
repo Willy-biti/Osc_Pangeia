@@ -8,7 +8,7 @@ import Img6 from "../../Assets/Photos/Camisetas/camiseta2.png";
 const items = [
     {
       id: 1,
-      title: 'Primeiro Slide',
+      title1: 'Primeiro Slide',
       description: 'O uniforme oficial do nosso time é um símbolo de orgulho e união, representando nossa história, valores e determinação em campo. Cada detalhe foi cuidadosamente pensado para proporcionar o máximo de conforto e desempenho, além de refletir a identidade única do nosso time.',
       Photo: Img1,
       modalInfo: {

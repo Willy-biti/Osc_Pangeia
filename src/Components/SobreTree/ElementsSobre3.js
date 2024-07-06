@@ -57,18 +57,18 @@ export const Div1 = styled.div`
 export const Div1Baixo = styled.div`
   width: 500px;
   height: 200px;
-  left: 50px; 
+  right: 50px; 
   top: 155px;
   position: absolute;
   border-radius: 0px 50px 0 50px ;
-  background: ${theme.Title}; 
+  background: ${theme.footer}; 
 `;
 export const Div1Cima = styled.div`
   width: 500px;
-   height: 400px;
+  height: 400px;
   position: absolute;
   top: 50px;
-  left: 50px; 
+  right: 50px; 
   background-size: cover;
     background-position: center;
   overflow: hidden;
@@ -85,11 +85,12 @@ export const Div2 = styled.div`
   padding: 20px;
 `;
 
-export const Title = styled.h1`
+export const Title = styled.div`
   font-size: 24px;
   margin-bottom: 10px;
   color: ${theme.Title};
 `;
+
 
 export const Description = styled.p`
   width: 80%;
