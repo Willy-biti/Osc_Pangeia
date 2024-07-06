@@ -62,6 +62,8 @@ export const DivLeftCima = styled.div`
     width: 400px;
     height: 300px;
     border-radius: 0 50px 0 50px ;
+    background-size: cover;
+    background-position: center;
     z-index: 2;
 `
 

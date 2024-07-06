@@ -40,19 +40,44 @@ export const DescHeader = styled.div`
 `
 
 export const Content = styled.div`
-  display: flex;
+  
   position: relative;
+  display: flex;
+  justify-content: center;
   height: 550px;
+
+  // background: red;
 
 `;
 
 export const Div1 = styled.div`
-  flex: 1;
+  width: 50%;
 //   margin-right: 10px;
 `;
+export const Div1Baixo = styled.div`
+  width: 500px;
+  height: 200px;
+  left: 50px; 
+  top: 155px;
+  position: absolute;
+  border-radius: 0px 50px 0 50px ;
+  background: ${theme.Title}; 
+`;
+export const Div1Cima = styled.div`
+  width: 500px;
+   height: 400px;
+  position: absolute;
+  top: 50px;
+  left: 50px; 
+  background-size: cover;
+    background-position: center;
+  overflow: hidden;
+  z-index: 2;
+`;
+
 
 export const Div2 = styled.div`
-  flex: 1;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,6 +92,7 @@ export const Title = styled.h1`
 `;
 
 export const Description = styled.p`
+  width: 80%;
   font-size: 16px;
   margin-bottom: 20px;
   color: ${theme.background};

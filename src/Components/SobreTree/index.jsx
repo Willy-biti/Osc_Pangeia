@@ -92,10 +92,10 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import { Section, Container, Haederobre3, H1Header, DescHeader, Content, Div1, Div2, Title, Description, Button } from './ElementsSobre3';
+import { Section, Container, Haederobre3, H1Header, DescHeader,Div1Baixo, Div1Cima, Content, Div1, Div2, Title, Description, Button } from './ElementsSobre3';
 import Modal from './Modal/Modal';
 import items from './Items';
-import { GrCaretPrevious, GrCaretNext } from 'react-icons/gr';
+
 
 const Sobre3 = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -185,7 +185,10 @@ const Sobre3 = () => {
           {items.map((item) => (
             <Content key={item.id}>
               <Div1>
-                <img src={item.Photo} alt={item.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <Div1Baixo />
+                <Div1Cima>
+                <img src={item.Photo} alt={item.title} style={{ width: '80%', height: '100%', objectFit: 'cover' }} />
+                </Div1Cima>
               </Div1>
               <Div2>
                 <Title>{item.title}</Title>

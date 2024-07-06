@@ -9,7 +9,7 @@ const items = [
     {
       id: 1,
       title: 'Primeiro Slide',
-      description: 'Descrição do Primeiro Slide.',
+      description: 'O uniforme oficial do nosso time é um símbolo de orgulho e união, representando nossa história, valores e determinação em campo. Cada detalhe foi cuidadosamente pensado para proporcionar o máximo de conforto e desempenho, além de refletir a identidade única do nosso time.',
       Photo: Img1,
       modalInfo: {
         title: 'Informações do Primeiro Slide',
@@ -19,7 +19,7 @@ const items = [
     {
       id: 2,
       title: 'Segundo Slide',
-      description: 'Descrição do Segundo Slide.',
+      description: 'O uniforme oficial do nosso time é um símbolo de orgulho e união, representando nossa história, valores e determinação em campo. Cada detalhe foi cuidadosamente pensado para proporcionar o máximo de conforto e desempenho, além de refletir a identidade única do nosso time.',
       Photo: Img2,
       modalInfo: {
         title: 'Informações do Segundo Slide',
