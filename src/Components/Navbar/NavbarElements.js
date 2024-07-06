@@ -43,7 +43,7 @@ export const NavLogo = styled(LinkR)`
     outline: none;
     
     &:hover{
-        color: ${theme.accent};
+        color: ${theme.background};
         transform: scale(0.90)
     }
 `
@@ -97,8 +97,8 @@ export const NavLinks = styled(LinkS)`
 
     &.active,
     &:hover{
-        border-bottom: 3px solid ${theme.secondary};
-        color: ${theme.secondary};
+        border-bottom: 3px solid ${theme.background};
+        color: ${theme.background};
     }
 `
 
@@ -118,7 +118,7 @@ export const NavLinkR = styled(LinkR)`
 
 &.active,
 &:hover{
-    border-bottom: 3px solid ${theme.primary};
-    color: ${theme.primary};
+    border-bottom: 3px solid ${theme.background};
+    color: ${theme.background};
 }
 `

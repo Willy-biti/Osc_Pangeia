@@ -4,7 +4,7 @@ import { Link as LinkS } from "react-scroll";
 import theme from "../../Theme/theme";
 
 export const Nav = styled.nav`
-    background: ${theme.footer};
+    background: ${theme.secondary};
     height: 80px;
     width: 100vw ;   
     // margin-top: -80px;
@@ -31,7 +31,7 @@ export const NavbarContainer = styled.div`
 `
 
 export const NavLogo = styled(LinkR)`
-    color: ${theme.primary};
+    color: ${theme.background};
     jusify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
@@ -83,7 +83,7 @@ export const NavItem = styled.li`
 `
 
 export const NavLinks = styled(LinkS)`
-    color: ${theme.primary};
+    color: ${theme.background};
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -104,7 +104,7 @@ export const NavLinks = styled(LinkS)`
 
 export const NavLinkR = styled(LinkR)`
 
-    color: ${theme.primary};
+    color: ${theme.background   };
     display: flex;
     align-items: center;
     text-decoration: none;

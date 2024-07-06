@@ -2,6 +2,8 @@ import styled from "styled-components";
 import theme from "../../Theme/theme";
 import { Link as LinkR } from "react-router-dom";
 
+import Ft from '../../Assets/Photos/rega.jpg';
+
 // import Img from "../../Assets/Photos/rega.jpg";
 
 export const GallaryContainer = styled.div`
@@ -22,6 +24,7 @@ export const ContentTitle = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    color: ${theme.secondary};
 `
 export const ContentContent = styled.div`
     height: 80%;
@@ -33,6 +36,7 @@ export const DivLeft = styled.div`
     flex: 1;
     display: flex;
     justify-content: center;
+    color: ${theme.secondary};
 `
 
 export const DivLeftBaixo = styled.div`
@@ -40,7 +44,7 @@ export const DivLeftBaixo = styled.div`
     height: 300px;
     position: absolute;
     top: 150px;  
-    border-radius: 50px 0 50px 0;
+    border-radius: 0 50px 0 50px ;
     background: ${theme.secondary};
     border: 1px solid ${theme.secondary};
     // left: 0;
@@ -50,62 +54,110 @@ export const DivLeftBaixo = styled.div`
 export const DivLeftCima = styled.div`
     position: absolute;
     top: 200px;  // ajuste conforme necessário
-    left: -30px; 
+    left: -20px; 
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     width: 400px;
     height: 300px;
     border-radius: 0 50px 0 50px ;
-    background: ${theme.primary};
     z-index: 2;
+`
 
+
+export const DivFoto = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(${Ft});
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 50%;
+    color: ${theme.secondary};
+    border-radius: 50px 0 0 0 ;
+
+    &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50px 0 0 0 ;
+    background: rgba(0, 0, 0, 0.5); /* Sobreposição escura */
+    z-index: 1; /* Coloca a sobreposição atrás do conteúdo */
+  }
+`
+export const DivVideo = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    border-radius: 0 0 50px 0 ;
+`
+export const Video = styled.video`
+    position: relative  ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 50px 0 ;
+    background: rgba(0, 0, 0, 0.8);
+    object-fit: cover; /* Ajusta o vídeo para cobrir toda a área */
+    z-index: 1;
+
+    &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50px 0 0 0 ;
+    background: rgba(0, 0, 0, 0.8); /* Sobreposição escura */
+    z-index: 1; /* Coloca a sobreposição atrás do conteúdo */
+  }
+`
+export const Overlay = styled.div`
+  position: absolute;
+//   top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  border-radius: 0 0 50px 0 ;
+  z-index: 4;
+  background: rgba(0, 0, 0, 0.7); /* Cor clara com transparência */
+`;
+
+export const DivLink = styled.div`
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: ${theme.secondary};
+    text-align: center;
 `
 
 export const DivRight = styled.div`
     flex: 1;
+    height: 80%;
     display: flex;
     justify-content: center;
-`
-
-export const DivRightBaixo = styled.div`
-    width: 400px;
-    height: 300px;
-    position: absolute;
-    top: 150px;  
-    border-radius: 0 50px 0 50px ;
-    border: 1px solid ${theme.secondary};
-    background: ${theme.secondary};
-    // left: 0;
-    z-index: 1;
-`
-
-export const DivRightCima = styled.div`
-    position: absolute;
-    top: 200px;  // ajuste conforme necessário
-    right: -30px; 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 400px;
-    height: 300px;
-    border-radius: 50px 0 50px 0;
-    background: ${theme.primary};
-    z-index: 2;
-`
-
-export const TitleVideo = styled.div`
-    display: flex;
-    justify-content: center;
-`
-export const DescVideo = styled.div`
-    display: flex;
-    justify-content: center;
+    align-items: center;
+    color: ${theme.Title};
 `
 
 
 export const GallaryLink = styled(LinkR)`
-    color: ${theme.background};
     jusify-self: flex-start;
+    color: ${theme.background};
     cursor: pointer;
     font-size: 1rem;
     display: flex;
@@ -117,28 +169,6 @@ export const GallaryLink = styled(LinkR)`
     text-decoration: none;
     transition: 0.6s;
     text-align: center;
-    
-    &:hover{
-        color: ${theme.secondary};
-        transform: scale(0.90)
-    }
-`
-
-export const RRR = styled(LinkR)`
-    color: ${theme.background};
-    jusify-self: flex-start;
-    cursor: pointer;
-    font-size: 1rem;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    font-weight: bold;
-    text-decoration: none;
-    transition: 0.6s;
-    text-align: center;
-
     
     &:hover{
         color: ${theme.secondary};
