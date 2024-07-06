@@ -24,7 +24,7 @@ const Gallary = () => {
                                     </C.Video>
                                     <C.Overlay />
                                     <C.DivLink>
-                                        <h2>Videos</h2>
+                                        <h2>Text</h2>
                                     </C.DivLink>
                                 </C.DivVideo>
                             </C.DivLeftCima>
