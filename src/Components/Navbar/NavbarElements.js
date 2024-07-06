@@ -215,6 +215,7 @@ export const NavLinks = styled(LinkS)`
     transition: 0.2s;
     font-weight: bold;
     outline: none;
+    
 
     &.active,
     &:hover {

@@ -78,8 +78,10 @@ export const MoreInfoButton = styled.button`
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  transition: 0.6s;
 
   &:hover {
-    background-color: ${theme.secondary}; /* Cor de fundo ao passar o mouse */
+    transform: scale(0.9);
+    background-color: ${theme.primary}; /* Cor de fundo ao passar o mouse */
   }
 `;
