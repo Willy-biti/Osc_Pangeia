@@ -249,7 +249,7 @@ export const SubMenu = styled.div`
     left: 0;
     width: 160px;
     z-index: 1;
-    background-color: ${theme.background};
+    background-color: rgba(0, 0, 0, 0.7);
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 
     ${NavItem}:hover & {
@@ -259,7 +259,7 @@ export const SubMenu = styled.div`
 
 export const SubMenuItem = styled(LinkR)`
     color: ${theme.primary};
-    padding: 12px 16px;
+    padding: 12px 10px;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -267,7 +267,7 @@ export const SubMenuItem = styled(LinkR)`
     white-space: nowrap;
 
     &:hover {
-        background-color: ${theme.secondary};
-        color: ${theme.background};
+        background-color: ${theme.background};
+        color: ${theme.primary};
     }
 `;

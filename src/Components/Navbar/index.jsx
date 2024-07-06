@@ -139,9 +139,9 @@ const Navbar = ({ toggle }) => {
                         <NavItem>
                             <NavLinks >Eventos <FaAngleDown style={{color: '#4CAF50' }} /></NavLinks>
                             <SubMenu>
-                                <SubMenuItem to='/eventos/evento1'>Evento 1</SubMenuItem>
-                                <SubMenuItem to='/eventos/evento2'>Evento 2</SubMenuItem>
-                                <SubMenuItem to='/eventos/evento3'>Evento 3</SubMenuItem>
+                                <SubMenuItem to='/evento1'>Festa Haiti</SubMenuItem>
+                                <SubMenuItem to='/evento2'>Eifa</SubMenuItem>
+                                <SubMenuItem to='/evento3'>Viagem Friburgo 3</SubMenuItem>
                             </SubMenu>
                         </NavItem>
                         <NavItem>
