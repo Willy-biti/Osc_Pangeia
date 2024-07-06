@@ -66,7 +66,7 @@ export const DivLeftCima = styled.div`
 `
 
 
-export const DivFoto = styled.div`
+export const DivFoto = styled(LinkR)`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,7 +87,7 @@ export const DivFoto = styled.div`
     right: 0;
     bottom: 0;
     border-radius: 50px 0 0 0 ;
-    background: rgba(0, 0, 0, 0.5); /* Sobreposição escura */
+    background: rgba(0, 0, 0, 0.8); /* Sobreposição escura */
     z-index: 1; /* Coloca a sobreposição atrás do conteúdo */
   }
 `
@@ -133,16 +133,39 @@ export const Overlay = styled.div`
   background: rgba(0, 0, 0, 0.7); /* Cor clara com transparência */
 `;
 
-export const DivLink = styled.div`
+export const DivLinkF = styled(LinkR)`
     position: absolute;
     z-index: 5;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 50%;
     color: ${theme.secondary};
     text-align: center;
+    transition: 0.6s;
+
+    &:hover{
+        color: ${theme.secondary};
+        transform: scale(0.90)
+    }
+`
+export const DivLinkV = styled(LinkR)`
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    color: ${theme.secondary};
+    text-align: center;
+    transition: 0.6s;
+
+    &:hover{
+        color: ${theme.secondary};
+        transform: scale(0.90)
+    }
 `
 
 export const DivRight = styled.div`
@@ -150,8 +173,10 @@ export const DivRight = styled.div`
     height: 80%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-direction: column; 
+    // align-items: center;
     color: ${theme.Title};
+    text-align: justify;
 `
 
 
@@ -174,4 +199,13 @@ export const GallaryLink = styled(LinkR)`
         color: ${theme.secondary};
         transform: scale(0.90)
     }
+`
+export const Highlight = styled.span`
+  font-weight: bold;
+  color: ${theme.primary}; /* Escolha a cor que você preferir */
+`;
+
+export const H1 = styled.h1`
+    Background: ${theme.primary};
+    width: 30px;
 `
