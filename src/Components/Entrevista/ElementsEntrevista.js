@@ -39,6 +39,7 @@ export const Desc = styled.div`
     display: flex;
     height: 60%;
     color: ${theme.Title};
+    text-align: justify;
 `
 
 export const DivRight = styled.div`

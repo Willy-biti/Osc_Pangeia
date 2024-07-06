@@ -89,7 +89,7 @@ export const DivFoto = styled(LinkR)`
     right: 0;
     bottom: 0;
     border-radius: 50px 0 0 0 ;
-    background: rgba(0, 0, 0, 0.8); /* Sobreposição escura */
+    background: rgba(0, 0, 0, 0.6); /* Sobreposição escura */
     z-index: 1; /* Coloca a sobreposição atrás do conteúdo */
   }
 `
@@ -108,7 +108,7 @@ export const Video = styled.video`
     width: 100%;
     height: 100%;
     border-radius: 0 0 50px 0 ;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.6);
     object-fit: cover; /* Ajusta o vídeo para cobrir toda a área */
     z-index: 1;
 
