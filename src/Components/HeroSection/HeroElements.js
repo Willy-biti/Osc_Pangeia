@@ -55,8 +55,9 @@ export const Pincipe = styled.div`
 
 export const CounterHero = styled.div`
     display: flex;
+    width: 50%;
     // background-color: blue;
 `
 export const  h2Principe = styled.h2`
-    padding: 20px;
+    // padding: 20px;
 `

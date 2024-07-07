@@ -4,7 +4,7 @@ import theme from '../../Theme/theme';
 export const CountdownContainer = styled.div`
   display: flex;
   justify-content: flex-start;
-  margin-top: 80px;
+  // margin-top: 80px;
   width: 100%;
 `;
 
@@ -24,7 +24,7 @@ export const ContentWrapper = styled.div`
 
 export const Title = styled.h1`
   margin-bottom: 30px;
-  font-size: 45px;
+  font-size: 40px;
   width: 80%;
   // background: blue;
   display: flex;

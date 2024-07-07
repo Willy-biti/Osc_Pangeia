@@ -13,10 +13,42 @@ function Eventos() {
                     </C.Div1Content>
                 </C.Div1>
                 <C.Div2>
-                    <C.Card1></C.Card1>
-                    <C.Card2></C.Card2>
-                    <C.Card3></C.Card3>
-                    <C.Card4></C.Card4>
+                    <C.Card1>
+                        <C.Frofil1 />
+                        <C.DescEvent>{DataEvents.DescEvent1}</C.DescEvent>
+                        <C.ButtonEvent>
+                            <C.BtnEntvosLink to='/eifa'>
+                                Clique aqui
+                            </C.BtnEntvosLink>
+                        </C.ButtonEvent>
+                    </C.Card1>
+                    <C.Card2>
+                        <C.Frofil2 />
+                        <C.DescEvent>{DataEvents.DescEvent2}</C.DescEvent>
+                        <C.ButtonEvent>
+                            <C.BtnEntvosLink to='/fraiburgo'>
+                                Clique aqui
+                            </C.BtnEntvosLink>
+                        </C.ButtonEvent>
+                    </C.Card2>
+                    <C.Card3>
+                        <C.Frofil3 />
+                        <C.DescEvent>{DataEvents.DescEvent3}</C.DescEvent>
+                        <C.ButtonEvent>
+                            <C.BtnEntvosLink to='/haiti'>
+                                Clique aqui
+                            </C.BtnEntvosLink>
+                        </C.ButtonEvent>
+                    </C.Card3>
+                    <C.Card4>
+                        <C.Frofil4 />
+                        <C.DescEvent>{DataEvents.DescEvent4}</C.DescEvent>
+                        <C.ButtonEvent>
+                            <C.BtnEntvosLink to='/palestina'>
+                                Clique aqui
+                            </C.BtnEntvosLink>
+                        </C.ButtonEvent>
+                    </C.Card4>
                 </C.Div2>
             </C.Content>
         </C.Container>

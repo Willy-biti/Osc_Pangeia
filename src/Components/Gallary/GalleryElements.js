@@ -92,6 +92,7 @@ export const DivFoto = styled(LinkR)`
     background: rgba(0, 0, 0, 0.6); /* Sobreposição escura */
     z-index: 1; /* Coloca a sobreposição atrás do conteúdo */
   }
+    
 `
 export const DivVideo = styled.div`
     display: flex;
