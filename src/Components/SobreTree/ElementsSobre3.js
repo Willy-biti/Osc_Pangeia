@@ -61,7 +61,7 @@ export const Div1Baixo = styled.div`
   top: 155px;
   position: absolute;
   border-radius: 0px 50px 0 50px ;
-  background: ${theme.footer}; 
+  background: ${theme.background1}; 
 `;
 export const Div1Cima = styled.div`
   width: 500px;

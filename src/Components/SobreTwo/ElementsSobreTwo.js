@@ -5,71 +5,91 @@ export const Container = styled.section`
     height: 80vh;
     display: flex;
     justify-content: center;
-`
+`;
+
 export const Content = styled.div`
     width: 80%;
     display: flex;
     justify-content: center;
-`
+`;
 
 export const Cards = styled.div`
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 10px;
-`
+`;
+
 export const ContentCards1 = styled.div`
     width: 250px;
-    height: 350px;
+    height: 370px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     background: ${theme.secondary};
     color: ${theme.Title};
-    border-radius: 0 70px 0 70px ;
-`
+    border-radius: 0 70px 0 70px;
+`;
+
 export const ContentCards2 = styled.div`
     width: 250px;
-    height: 350px;
+    height: 370px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: ${theme.primary};
-    color: ${theme.secondary};
-    border-radius: 0 70px 0 70px ;
-`
+    background: ${theme.Title};
+    color: ${theme.background};
+    border-radius: 0 70px 0 70px;
+`;
+
 export const ContentCards3 = styled.div`
     width: 250px;
-    height: 350px;
+    height: 370px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: ${theme.secondary};
+    background: ${theme.background};
     color: ${theme.Title};
-    border-radius: 0 70px 0 70px ;
-`
-export const hautTitle = styled.div`
-    flex:1;
+    border-radius: 0 70px 0 70px;
+`;
+
+export const HautTitle = styled.div`
+    height: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
-`
+`;
+
 export const Title = styled.div`
-    flex:1;
+    height: 45px;
     display: flex;
     justify-content: center;
-    // align-items: center;
-`
+    margin-bottom: 20px;
+
+    h2 {
+        text-align: center;
+        width: 100%;
+        background: ${theme.background1};
+        color: ${theme.Title};
+        padding: 10px 0; /* Ajuste o padding conforme necessário */
+    }
+`;
+
 export const Desc = styled.div`
-    flex:3;
+    height: 230px;
     display: flex;
     justify-content: center;
-    // align-items: center;
     text-align: center;
 
-    // background: red;
-
-    p{
+    p {
         width: 80%;
+        line-height: 1.6;
+        margin-bottom: 15px;
     }
-`
+
+    .highlight {
+        color: ${theme.secondary}; 
+        font-weight: bold; 
+        font-size: 17px;
+    }
+`;
