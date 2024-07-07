@@ -25,7 +25,7 @@ export const ContentWrapper = styled.div`
 export const Title = styled.h1`
   margin-bottom: 30px;
   font-size: 45px;
-  width: 60%;
+  width: 80%;
   // background: blue;
   display: flex;
    justify-content: start;

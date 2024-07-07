@@ -108,7 +108,7 @@ export const Video = styled.video`
     width: 100%;
     height: 100%;
     border-radius: 0 0 50px 0 ;
-    background: rgba(0, 0, 0, 0.6);
+    // background: rgba(0, 0, 0, 0.6);
     object-fit: cover; /* Ajusta o vídeo para cobrir toda a área */
     z-index: 1;
 
