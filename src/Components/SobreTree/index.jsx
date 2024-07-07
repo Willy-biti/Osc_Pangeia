@@ -101,7 +101,7 @@ const Sobre3 = () => {
                 <Button onClick={() => handleOpenModal(item)}>Abrir</Button>
               </Div2>
               <Div1>
-                <Div1Baixo />
+                {/* <Div1Baixo /> */}
                 <Div1Cima>
                 <img src={item.Photo} alt={item.title} style={{ width: '80%', height: '100%', objectFit: 'cover' }} />
                 </Div1Cima>
