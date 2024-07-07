@@ -13,7 +13,10 @@ function Eventos() {
                     </C.Div1Content>
                 </C.Div1>
                 <C.Div2>
-                    555
+                    <C.Card1></C.Card1>
+                    <C.Card2></C.Card2>
+                    <C.Card3></C.Card3>
+                    <C.Card4></C.Card4>
                 </C.Div2>
             </C.Content>
         </C.Container>
