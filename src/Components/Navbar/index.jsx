@@ -127,7 +127,7 @@ const Navbar = ({ toggle }) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinkR to='/aboutus' smooth={true} spy={true}>Sobre Nós</NavLinkR>
+                            <NavLinkR to='/aboutus' smooth={true} spy={true}>Sobre nós</NavLinkR>
                         </NavItem>
                         <NavItem>
                             <NavLinks >Galeria  <FaAngleDown style={{color: '#4CAF50' }} /></NavLinks>

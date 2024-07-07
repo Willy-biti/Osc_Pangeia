@@ -3,7 +3,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import CountdownTimer from '../CountTimer';
 import Typewriter from '../Typewriter';
-// import {GoAlert} from 'react-icons/go'
+// import {GoAlert} from 'react-icons/go';
 
 import src from "../../Assets/Photos/scroll-down-hero.png"
 

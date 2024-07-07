@@ -16,6 +16,7 @@ import Duvidas from "../Components/Duvidas";
 // import DataSobre3 from "../Components/Sobre3/Data";
 // import Participantes from "../Components/Participantes";
 import Sobre3 from "../Components/SobreTree";
+import Principios from "../Components/SobreTwo";
 
 
 function Home() {
@@ -33,7 +34,8 @@ function Home() {
       <HeroSection {...IdInicio}/>  
       <SobrePangeia { ...homeObjOne}/>
       <Duvidas />
-      <SobrePangeia2 />
+      <Principios />
+      {/* <SobrePangeia2 /> */}
       {/* <SobrePangeia3 { ...DataSobre3}/> */}
       <Sobre3 />
       {/* <Participantes /> */}

@@ -200,6 +200,7 @@ export const NavMenu = styled.ul`
 `;
 
 export const NavItem = styled.li`
+    // width: 120px;
     height: 80px;
     position: relative; /* Para posicionar o SubMenu */
 `;

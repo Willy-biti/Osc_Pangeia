@@ -17,7 +17,7 @@ function Duvidas() {
                    }}/>
               </C.Icon>
               <C.Description>
-                <p> jkfhgjkfdsgjgjhgl lkhgfhgufg kjgfhguçg uhguhafkgçhfaj</p>
+                <p> Faça parte dessa jornada e doe agora!</p>
               </C.Description>
               <C.DivButton>
                 <C.Button>Apoie agora</C.Button>
@@ -33,7 +33,7 @@ function Duvidas() {
                    }}/>
               </C.Icon>
               <C.Description>
-                <p> Quer se tornar membro? clique em saiba mais para preencher o formulário</p>
+                <p> Quer se tornar membro? clique em baixo para preencher o formulário</p>
               </C.Description>
               <C.DivButton>
                 <C.Button style={{
