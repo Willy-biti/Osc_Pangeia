@@ -127,25 +127,30 @@ const Navbar = ({ toggle }) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinkR to='/aboutus' smooth={true} spy={true}>Sobre nós</NavLinkR>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks >Galeria  <FaAngleDown style={{color: '#4CAF50' }} /></NavLinks>
+                            <NavLinks to="#">Sobre nós<FaAngleDown style={{color: '#4CAF50' }} /></NavLinks>
                             <SubMenu>
-                                <SubMenuItem to='/galeria/fotos'>Fotos</SubMenuItem>
-                                <SubMenuItem to='/galeria/videos'>Vídeos</SubMenuItem>
+                                <SubMenuItem to='/historia'>História</SubMenuItem>
+                                <SubMenuItem to='/sobre-pangeia'>Sobre Pangeia</SubMenuItem>
                             </SubMenu>
                         </NavItem>
                         <NavItem>
-                            <NavLinks >Eventos <FaAngleDown style={{color: '#4CAF50' }} /></NavLinks>
+                            <NavLinks  to="#">Galeria  <FaAngleDown style={{color: '#4CAF50' }} /></NavLinks>
                             <SubMenu>
-                                <SubMenuItem to='/evento1'>Festa Haiti</SubMenuItem>
-                                <SubMenuItem to='/evento2'>Eifa</SubMenuItem>
-                                <SubMenuItem to='/evento3'>Viagem Friburgo 3</SubMenuItem>
+                                <SubMenuItem to='/fotos'>Fotos</SubMenuItem>
+                                <SubMenuItem to='/videos'>Vídeos</SubMenuItem>
                             </SubMenu>
                         </NavItem>
                         <NavItem>
-                            <NavLinkR to='/contato'>Contato</NavLinkR>
+                            <NavLinks  to="#">Eventos <FaAngleDown style={{color: '#4CAF50' }} /></NavLinks>
+                            <SubMenu>
+                                <SubMenuItem to='/viagem-escola-eifa'>Viagem Eifa</SubMenuItem>
+                                <SubMenuItem to='/viagem-fraiburgo'>Viagem Friburgo</SubMenuItem>
+                                <SubMenuItem to='/festa-haiti'>Festa Haiti</SubMenuItem>
+                                <SubMenuItem to='/evento-palestina'>Palestina</SubMenuItem>
+                            </SubMenu>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinkR to='/contatos'>Contato</NavLinkR>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>

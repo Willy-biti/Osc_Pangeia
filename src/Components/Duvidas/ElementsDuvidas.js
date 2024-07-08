@@ -1,6 +1,7 @@
 
 import styled from 'styled-components';
 import theme from '../../Theme/theme';
+import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
   position: absolute;
@@ -106,7 +107,7 @@ export const DivButton = styled.div`
   color: ${theme.background}; 
 `;
 
-export const Button = styled.button`
+export const Button = styled(Link)`
   width: 100px;
   height: 40px;
   background-color: ${theme.primary};

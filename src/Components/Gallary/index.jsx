@@ -23,7 +23,7 @@ const Gallary = () => {
                                     </C.DivLinkF>
                                 </C.DivFoto>
                                 <C.DivVideo>
-                                    <C.Video autoPlay loop mute>
+                                    <C.Video autoPlay loop muted>
                                     <source src={Vdo} type="video/mp4" />
                                     </C.Video>
                                     <C.Overlay />

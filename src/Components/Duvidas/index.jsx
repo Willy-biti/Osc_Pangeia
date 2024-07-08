@@ -20,7 +20,7 @@ function Duvidas() {
                 <p> Faça parte dessa jornada e doe agora!</p>
               </C.Description>
               <C.DivButton>
-                <C.Button>Apoie agora</C.Button>
+                <C.Button to='/doacao'>Apoie agora</C.Button>
               </C.DivButton>
             </C.Content>
             <C.Content2>
@@ -36,7 +36,7 @@ function Duvidas() {
                 <p> Quer se tornar membro? clique em baixo para preencher o formulário</p>
               </C.Description>
               <C.DivButton>
-                <C.Button style={{
+                <C.Button to='/formulario' style={{
                   background: '#000',
                   color: ''
                 }}
