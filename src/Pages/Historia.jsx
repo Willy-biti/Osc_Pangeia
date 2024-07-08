@@ -1,8 +1,11 @@
 import React from 'react';
+import Fundacao from '../Components/Fundacao';
 
 function Historia() {
   return (
-    <div>Historia</div>
+    <>
+      <Fundacao />
+    </>
   )
 }
 

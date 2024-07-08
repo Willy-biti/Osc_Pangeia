@@ -1,8 +1,9 @@
 import React from "react";
 
-import img1 from '../../Assets/Photos/Praceiros/barrigaverde.png';
-import img2 from '../../Assets/Photos/Praceiros/barrigaverde.png';
-import img3 from '../../Assets/Photos/Praceiros/Sinjusc.png';
+import Icom from '../../Assets/Photos/Praceiros/ICOM.png';
+import Sintuf from '../../Assets/Photos/Praceiros/Sintufsc.png';
+import Sinj from '../../Assets/Photos/Praceiros/Sinjusc.png';
+import Barriga from '../../Assets/Photos/Praceiros/barrigaverde.png';
 
 import {
     ParceriaContainer,
@@ -23,9 +24,10 @@ const Parceria = () =>{
                                 <h2>Parceiros</h2>
                             </ParceriaParceirosH1>
                             <ParceriaParceirosContents>
-                                <a href="https://www.churrascariabarrigaverde.com.br/" target={"_blank"} rel="noreferrer"><img src={img1} width="120px" height="100px" alt="BarrigaVerde"/></a>
-                                <a href="https://www.sinjusc.org.br/site/" target={"_blank"} rel="noreferrer"><img src={img2} width="120px" height="100px" alt="Sinjusc"/></a>
-                                <a href="http://www.escoladostrabalhadores.org.br/" target={"_blank"} rel="noreferrer"><img src={img3} width="120px" height="50px" alt="Escola dos trabalhadores"/></a>
+                                <a href="https://www.icomfloripa.org.br/" target={"_blank"} rel="noreferrer"><img src={Icom} width="120px" height="100px" alt="Icom"/></a>
+                                <a href="https://www.sinjusc.org.br/site/" target={"_blank"} rel="noreferrer"><img src={Sinj} width="120px" height="100px" alt="Sinjusc"/></a>
+                                <a href="https://www.sintufsc.com.br/" target={"_blank"} rel="noreferrer"><img src={Sintuf} width="120px" height="80px" alt="Sintufsc"/></a>
+                                <a href="https://www.churrascariabarrigaverde.com.br/" target={"_blank"} rel="noreferrer"><img src={Barriga} width="120px" height="80px" alt="Escola dos trabalhadores"/></a>
                             </ParceriaParceirosContents>
                         </ParceriaParceiros>
                     </ParceriaContent>
