@@ -45,7 +45,7 @@ export const Photo = styled.img`
     grid-column-start: span 2;  /* ocupa duas colunas */
   }
 
-  &:nth-child(103) {
+  &:nth-child(11) {
     grid-column-start: span 2;  /* ocupa duas colunas */
   }
 

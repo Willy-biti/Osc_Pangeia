@@ -4,11 +4,14 @@ import theme from "../../Theme/theme";
 import Bgd from "../../Assets/Photos/rega.jpg";
 
 export const Container = styled.section`
-    height: autto;
+    margin-top: 80px;
+    height: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
     background: ${theme.background1};
+
+    z-index: 1;
 
 `
 export const Content = styled.section`
