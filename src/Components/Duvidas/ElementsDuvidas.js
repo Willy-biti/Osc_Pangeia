@@ -109,7 +109,7 @@ export const DivButton = styled.div`
 
 export const Button = styled(Link)`
   width: 100px;
-  height: 40px;
+  height: 20px;
   background-color: ${theme.primary};
   border: none;
   color: ${theme.background};
