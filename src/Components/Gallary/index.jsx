@@ -18,7 +18,7 @@ const Gallary = () => {
                             <C.DivLeftBaixo />
                             <C.DivLeftCima>
                                 <C.DivFoto >
-                                    <C.DivLinkF to="/Foto">
+                                    <C.DivLinkF to="/fotos">
                                         <h2>{DataGallary.TitleF}</h2>
                                     </C.DivLinkF>
                                 </C.DivFoto>
