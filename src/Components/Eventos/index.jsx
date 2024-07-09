@@ -17,7 +17,7 @@ function Eventos() {
                         <C.Frofil1 />
                         <C.DescEvent>{DataEvents.DescEvent1}</C.DescEvent>
                         <C.ButtonEvent>
-                            <C.BtnEntvosLink to='/eifa'>
+                            <C.BtnEntvosLink to='/viagem-escola-eifa'>
                                 Clique aqui
                             </C.BtnEntvosLink>
                         </C.ButtonEvent>
@@ -26,7 +26,7 @@ function Eventos() {
                         <C.Frofil2 />
                         <C.DescEvent>{DataEvents.DescEvent2}</C.DescEvent>
                         <C.ButtonEvent>
-                            <C.BtnEntvosLink to='/fraiburgo'>
+                            <C.BtnEntvosLink to='/viagem-fraiburgo'>
                                 Clique aqui
                             </C.BtnEntvosLink>
                         </C.ButtonEvent>
@@ -35,7 +35,7 @@ function Eventos() {
                         <C.Frofil3 />
                         <C.DescEvent>{DataEvents.DescEvent3}</C.DescEvent>
                         <C.ButtonEvent>
-                            <C.BtnEntvosLink to='/haiti'>
+                            <C.BtnEntvosLink to='/festa-haiti'>
                                 Clique aqui
                             </C.BtnEntvosLink>
                         </C.ButtonEvent>
@@ -44,7 +44,7 @@ function Eventos() {
                         <C.Frofil4 />
                         <C.DescEvent>{DataEvents.DescEvent4}</C.DescEvent>
                         <C.ButtonEvent>
-                            <C.BtnEntvosLink to='/palestina'>
+                            <C.BtnEntvosLink to='/evento-palestina'>
                                 Clique aqui
                             </C.BtnEntvosLink>
                         </C.ButtonEvent>

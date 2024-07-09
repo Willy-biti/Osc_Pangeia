@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import { storage } from '../../Firebase/FireFotosGaleria';
 import { ref, listAll, getDownloadURL } from 'firebase/storage';
-import ModalSlider from './ModalFotos';
+import ModalSlider from './ModalEifa';
 import * as C from './Elements';
 
 
-const FotoGallery = () => {
+const FestaEifa = () => {
   const [photos, setPhotos] = useState([]);
   const [selectedPhoto, setSelectedPhoto] = useState(null);
 
   useEffect(() => {
     const fetchPhotos = async () => {
       try {
-        const imagesRef = ref(storage, 'Gallery-photos');
+        const imagesRef = ref(storage, 'Eifa');
         const imagesList = await listAll(imagesRef);
         const urls = await Promise.all(
           imagesList.items.map((item) => getDownloadURL(item))
@@ -43,6 +43,6 @@ const FotoGallery = () => {
   );
 };
 
-export default FotoGallery;
+export default FestaEifa;
 
 
