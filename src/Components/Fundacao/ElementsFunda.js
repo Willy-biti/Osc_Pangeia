@@ -17,6 +17,7 @@ export const Content = styled.section`
     justify-content: center;
     flex-direction: column;
     // background: ${theme.background1};
+    
 
 
 `

@@ -1,7 +1,7 @@
 import React from 'react';
 import * as C from './ElementsFunda';
 import {Meka} from './Items';
-import Timeline from './Td';
+import TimeLine from './Timeline/Timeline';
 
 function Fundacao() {
   return (
@@ -15,9 +15,8 @@ function Fundacao() {
                   </C.Div1Content>
                 </C.Div1>
                 <C.Div2>
-                <Timeline />
+                  <TimeLine />
                 </C.Div2>
-                
             </C.Content>
         </C.Container>
     </>
