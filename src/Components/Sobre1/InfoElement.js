@@ -167,7 +167,7 @@ outline: none;
 
 &:hover{
     transform: scale(0.95);
-    color: ${theme.secondary};
+    color: ${theme.background};
 }
 `
 
