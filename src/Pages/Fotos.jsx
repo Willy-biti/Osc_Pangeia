@@ -15,7 +15,8 @@ function Fotos() {
     <>
       <Navbar2 toggle={toggle}/>
       <FotoGallery />
-      <ContainerFooter />
+      {/* <ContainerFooter /> */}
+      oi
     </>
   )
 }
