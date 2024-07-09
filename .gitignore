@@ -7,8 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Remove arquivos .env do controle de versão (substitua pelo nome exato do arquivo, se necessário)
-git rm --cached .env
+
 
 
 .env
