@@ -9,7 +9,7 @@ export const Container = styled.div`
 `
 
 export const Content = styled.div`
-    width: 80%;
+    width: 99%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);  /* 3 colunas com largura igual */
     grid-template-rows: 250px;              /* altura fixa de 250px para as linhas */
@@ -32,27 +32,28 @@ export const Photo = styled.img`
   object-fit: cover;      /* ajustar a imagem dentro do espaço disponível */
   cursor: pointer;
 
-  /* Aplicando estilos específicos ao primeiro filho */
-  &:nth-child(1) {
-    grid-column-start: span 2;  /* ocupa duas colunas */
-  }
+  // /* Aplicando estilos específicos ao primeiro filho */
+  // &:nth-child(1) {
+  //   grid-column-start: span 2;  /* ocupa duas colunas */
+  // }
 
-  &:nth-child(4) {
-    grid-column-start: span 2;  /* ocupa duas colunas */
-  }
+  // &:nth-child(4) {
+  //   grid-column-start: span 2;  /* ocupa duas colunas */
+  // }
 
-  &:nth-child(8) {
-    grid-column-start: span 2;  /* ocupa duas colunas */
-  }
+  // &:nth-child(8) {
+  //   grid-column-start: span 2;  /* ocupa duas colunas */
+  // }
 
-  &:nth-child(103) {
-    grid-column-start: span 2;  /* ocupa duas colunas */
-  }
+  // &:nth-child(103) {
+  //   grid-column-start: span 2;  /* ocupa duas colunas */
+  // }
 
-  @media (max-width: 768px) {
-    /* Para telas menores, fazer os primeiros itens ocuparem apenas uma coluna */
-    &:nth-child(1), &:nth-child(4), &:nth-child(7), &:nth-child(10) {
-      grid-column: span 1;  /* cada um ocupa uma coluna */
-    }
-  }
+  // @media (max-width: 768px) {
+  //   /* Para telas menores, fazer os primeiros itens ocuparem apenas uma coluna */
+  //   &:nth-child(1), &:nth-child(4), &:nth-child(7), &:nth-child(10) {
+  //     grid-column: span 1;  /* cada um ocupa uma coluna */
+  //   }
+  // }
+
 `;
