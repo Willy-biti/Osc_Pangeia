@@ -16,7 +16,6 @@ function Fotos() {
       <Navbar2 toggle={toggle}/>
       <FotoGallery />
       <ContainerFooter />
-      oi
     </>
   )
 }
