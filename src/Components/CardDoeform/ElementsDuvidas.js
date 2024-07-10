@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
   position: absolute;
-  top: 125vh;
+  top: 120vh;
   left: 50%;
   right: 0px;
   transform: translate(-50%, -50%);

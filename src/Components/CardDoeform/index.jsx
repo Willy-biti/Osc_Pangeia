@@ -4,7 +4,7 @@ import  * as C from"./ElementsDuvidas";
 import { FaDonate } from 'react-icons/fa';
 import {FaWpforms} from 'react-icons/fa6'
 
-function Duvidas() {
+function CardDoeForm() {
   return (
     <>
         <C.Container>
@@ -49,4 +49,4 @@ function Duvidas() {
   )
 }
 
-export default Duvidas
+export default CardDoeForm;
