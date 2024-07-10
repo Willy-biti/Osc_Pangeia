@@ -5,14 +5,13 @@ import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
   position: absolute;
-  top: 108%;
+  top: 125vh;
   left: 50%;
   right: 0px;
   transform: translate(-50%, -50%);
   width: 1000px;
   height: 200px;
   font-weight: bold;
-  // background-color: green;
   box-shadow: 0 25px 30px rgba(0, 0, 0, 0.5);
   border-radius: 10px;  
   display: flex;
@@ -26,8 +25,6 @@ export const Content = styled.div`
   box-sizing: border-box;
   border-top-left-radius: 10px; 
   border-bottom-left-radius: 10px;
-  // display: flex;
-  // flex-direction: column;
 
   display: grid;
   grid-template-rows: 1fr 2fr 2fr;
@@ -42,26 +39,16 @@ export const Content2 = styled.div`
   border-bottom:  200px solid transparent;
   border-top-right-radius: 10px;  
   border-bottom-right-radius: 10px;
-  color: ${theme.background}
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
-
-  // display: grid;
-  // grid-template-rows: 1fr 2fr 2fr;
+  color: ${theme.background};
 `;
 
 export const OverlayDiv = styled.div`
   position: absolute;
-  // top: 0;
-  // left: 0;
   width: 450px;;
   height: 100%;
-  // background-color: rgba(0, 0, 0, 0.5); // fundo transparente
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white; // cor do texto
   font-weight: bold;
 
   display: grid;
@@ -71,9 +58,6 @@ export const OverlayDiv = styled.div`
 export const ContainerC2 = styled.div`
   	display: grid;
     grid-template-rows: 1fr 2fr 2fr;
-    height:
-
-    // background: green;
 `
 
 export const Icon = styled.div`

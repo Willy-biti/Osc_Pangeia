@@ -5,24 +5,11 @@ export const homeObjOne = {
     lighTexDesc: true,
     topLine: 'Pangeia',
     headline: 'O que é pangeia?',
-    description:    'Somos uma organização da sociedade civil  voltada para a integração entre migrantes e imigrantes na cidade de Florianópolis',
+    description:    'Somos uma organização da sociedade civil voltada para a integração entre migrantes e imigrantes na cidade de Florianópolis. Para saber mais sobre nós, clique em saiba mais.',
     buttonLabel:  'Aqui é pangeia !',
     imgStart: false,
-    // img: '../../Assets/Photos/Sobre1.jpeg',
     alt: 'car',
 };
 
-// export const homeTwo = {
-//     id: 'Sobre',
-//     lighBg: false,
-//     lighText: true,
-//     lighTexDesc: true,
-//     topLine: 'Pangeia',
-//     headline: 'O que é pangeia?',
-//     description:    'A equipe Pangeia F.C. faz parte de um projeto da UFSC voltada para a integração entre migrantes e imigrantes na cidade de Florianópolis.' ,
-//     buttonLabel:  'Aqui é pangeia !',
-//     imgStart: false,
-//     img: require('../../images/i.webp'),
-//     alt: 'car',
-// };
+
 

@@ -4,12 +4,11 @@ import theme from "../../Theme/theme";
 import HeroIgmBgd from '../../Assets/Photos/Logo.jpg';
 
 export const HeroContainer = styled.main`
-
-    height: 100vh; /* Ocupa a altura total da tela */
+    height: 100vh; 
     background-image: url(${HeroIgmBgd});
     background-size: cover;
     background-position: center;
-    position: relative; /* Necessário para a sobreposição */
+    position: relative; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,24 +16,24 @@ export const HeroContainer = styled.main`
   &::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.1); /* Sobreposição escura */
-    z-index: 1; /* Coloca a sobreposição atrás do conteúdo */
+    height: 100%;
+    width: 100%;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+    background: rgba(0, 0, 0, 0.1); 
+    z-index: 1; 
   }
 `;
 
 
 export const HeroBg = styled.div`
-    width: 80vw; /* Ocupa 40% da largura da tela */
-    // background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
+    width: 80%; 
     padding: 20px;
-    color: #ffffff;
     display: flex;
     align-items: end;
-    z-index: 2; /* Garante que o conteúdo fique acima da sobreposição */
+    z-index: 2; 
 `
 ;
 
@@ -49,15 +48,12 @@ export const Pincipe = styled.div`
     align-items: center;    
     flex-direction: column;
     width: 40%;
-
-// background-color: blue;
 `
 
 export const CounterHero = styled.div`
     display: flex;
     width: 50%;
-    // background-color: blue;
 `
-export const  h2Principe = styled.h2`
-    // padding: 20px;
-`
+// export const  h2Principe = styled.h2`
+//     // padding: 20px;
+// `

@@ -4,29 +4,22 @@ import theme from '../../Theme/theme';
 export const CountdownContainer = styled.div`
   display: flex;
   justify-content: flex-start;
-  // margin-top: 80px;
   width: 100%;
 `;
 
 export const ContentWrapper = styled.div`
-  // width: 40%; /* Ocupa 40% da largura da tela */
-  // background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente */
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
   border-radius: 10px;
-  // text-align: center;
   color: ${theme.primary};
   display: flex;
   flex-direction: column;
-  // align-items: center;
-  // margin-top: 60px;
 `;
 
 export const Title = styled.h1`
   margin-bottom: 30px;
   font-size: 40px;
   width: 80%;
-  // background: blue;
   display: flex;
    justify-content: start;
 `;
@@ -55,15 +48,13 @@ export const TimerNumber = styled.div`
   font-size: 2rem;
   display: flex;
   justify-content: center;
-  // color: #fffff;
-  background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo com transparência */
-  padding: 5px 10px; /* Adicionando espaçamento interno */
-  border-radius: 50px; /* Adicionando borda arredondada */
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 5px 10px; 
+  border-radius: 50px;
 `;
 
 export const TimerLabel = styled.div`
   font-size: 1rem;
-  // color: #fffff;
   padding-top: 10px;
 `;
 
@@ -73,7 +64,7 @@ export const MoreInfoButton = styled.button`
   width: 150px;
   font-size: 1rem;
   color: ${theme.background};
-  background-color: ${theme.primary}; /* Cor de fundo do botão */
+  background-color: ${theme.primary}; 
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -82,6 +73,6 @@ export const MoreInfoButton = styled.button`
 
   &:hover {
     transform: scale(0.9);
-    background-color: ${theme.primary}; /* Cor de fundo ao passar o mouse */
+    background-color: ${theme.primary}; 
   }
 `;

@@ -17,6 +17,7 @@ import Duvidas from "../Components/Duvidas";
 // import Participantes from "../Components/Participantes";
 import Sobre3 from "../Components/SobreTree";
 import Principios from "../Components/SobreTwo";
+import TopHeader from "../Components/TopHeader";
 
 
 function Home() {
@@ -30,6 +31,7 @@ function Home() {
   return (
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
+      <TopHeader />
       <Navbar toggle={toggle}/>
       <HeroSection {...IdInicio}/>  
       <SobrePangeia { ...homeObjOne}/>
