@@ -50,10 +50,10 @@ export const DivRight = styled.div`
 `
 
 export const Div2Baixo = styled.div`
-    width: 450px;
+    width: 35vw;
     height: 300px;
     position: absolute;
-    top: 60px;  
+    top: 10vh;  
     border-radius: 0 50px 0 50px;
     border: 1px solid ${theme.secondary};
     // left: 0;
@@ -63,11 +63,11 @@ export const Div2Baixo = styled.div`
 `
 export const Div2BCima = styled.div`
     position: absolute;
-    top: 100px;  // ajuste conforme necessário
-    right: -30px; 
+    top: 17vh;  
+    right: -2.5vw; 
     display: flex;
     justify-content: center;
-    width: 500px;
+    width: 39vw;
     height: 300px;
     z-index: 2;
 `
