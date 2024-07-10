@@ -1,49 +1,51 @@
 // src/Components/Equipe/items.js
 import Img1 from '../../Assets/Photos/Equipe/Will.jpeg';
 import Img2 from '../../Assets/Photos/Equipe/Dani.jpeg';
+import Img3 from '../../Assets/Photos/Equipe/Vane.jpeg';
+import Img4 from '../../Assets/Photos/Equipe/Manza.jpeg';
 
 export const teamMembers = [
     {
       id: 1,
       name: 'Willy Biti',
-      role: 'Desenvolvedor Front-End',
-      bio: 'Desenvolvedor Front-End apaixonado por React e tecnologias web.',
+      role: 'xxx',
+      bio: 'xxxx',
       image: Img1,
     },
     {
       id: 2,
       name: 'Daniel Miranda',
       role: 'Tesoureiro',
-      bio: 'Especialista em banco de dados e APIs.',
+      bio: 'xxx',
       image: Img2,
     },
     // Adicione mais membros aqui
     {
       id: 3,
-      name: 'Carlos Santos',
-      role: 'Designer UI/UX',
-      bio: 'Designer focado em criar interfaces amigáveis e acessíveis.',
-      image: Img1,
+      name: 'Vanessa',
+      role: 'xxx',
+      bio: 'xxx',
+      image: Img3,
     },
     {
       id: 4,
-      name: 'Ana Paula',
-      role: 'Gerente de Projetos',
-      bio: 'Experiência em gerenciar equipes ágeis e entregar projetos com qualidade.',
-      image: Img1,
+      name: 'Manzambi',
+      role: 'xxx',
+      bio: 'xxx',
+      image: Img4,
     },
     {
       id: 5,
-      name: 'Roberto Carlos',
-      role: 'Desenvolvedor Full Stack',
-      bio: 'Desenvolvedor Full Stack com conhecimentos em várias linguagens de programação.',
+      name: 'Juan',
+      role: 'xxx',
+      bio: 'xxx',
       image: Img1,
     },
     {
       id: 6,
-      name: 'Fernanda Lima',
-      role: 'Analista de QA',
-      bio: 'Responsável por garantir a qualidade dos nossos produtos.',
+      name: 'Flavio',
+      role: 'xxx',
+      bio: 'xxx ',
       image: Img1,
     },
   ];

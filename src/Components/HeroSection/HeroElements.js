@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { Link as LinkS } from "react-scroll";
 import theme from "../../Theme/theme";
-import HeroIgmBgd from '../../Assets/Photos/Logo.jpg';
+import HeroIgmBgd from '../../Assets/Photos/rega.jpg';
 
 export const HeroContainer = styled.main`
     height: 100vh; 
@@ -22,7 +22,7 @@ export const HeroContainer = styled.main`
     // left: 0;
     // right: 0;
     // bottom: 0;
-    background: rgba(0, 0, 0, 0.1); 
+    // background: rgba(0, 0, 0, 0.1); 
     z-index: 1; 
   }
 `;

@@ -22,6 +22,7 @@ export const Title = styled.h1`
   width: 80%;
   display: flex;
    justify-content: start;
+   font-weight: bold;
 `;
 
 export const TimerContainer = styled.div`

@@ -10,6 +10,8 @@ import {
   MoreInfoButton
 } from './ElementsCountTimer';
 
+import TypeWriterH1 from './TypeWriter';
+
 const CountdownTimer = () => {
   const calculateTimeLeft = () => {
     const difference = +new Date('2024-08-17T23:59:59') - +new Date();
@@ -41,7 +43,9 @@ const CountdownTimer = () => {
   return (
     <CountdownContainer>
       <ContentWrapper>
-        <Title>FESTIVAL SEM FRONTEIRA 2024</Title>
+        <Title>
+          <TypeWriterH1 />
+        </Title>
         <TimerContainer>
           <TimerDisplay timeLeft={timeLeft} />
         </TimerContainer>

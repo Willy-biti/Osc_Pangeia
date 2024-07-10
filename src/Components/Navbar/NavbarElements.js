@@ -5,6 +5,7 @@ import { Link as LinkS } from "react-scroll";
 import theme from "../../Theme/theme";
 
 export const Nav = styled.nav`
+background-color: rgba(0, 0, 0, 0.6);
     height: 14vh;
     width: 100%;
     display: flex;
@@ -24,7 +25,7 @@ export const NavbarContainer = styled.div`
     justify-content: space-between;
     height: 100%;
     width: 80%;
-    background-color: rgba(0, 0, 0, 0.6);
+    // background-color: rgba(0, 0, 0, 0.6);
 `;
 
 export const NavLogo = styled(LinkR)`
