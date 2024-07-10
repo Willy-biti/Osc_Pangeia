@@ -4,6 +4,7 @@ import { Link as LinkR } from 'react-router-dom';
 
 export const Container = styled.header`
     width: 100vw;
+    min-width: 100vw;
     display: flex;
     justify-content: center;
     background: ${theme.background1};

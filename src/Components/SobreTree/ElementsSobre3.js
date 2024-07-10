@@ -6,6 +6,7 @@ export const Section = styled.section`
   background: ${theme.primary};
   display: flex;
   justify-content: center;
+  min-width: 100vw;
 `;
 
 export const Container = styled.div`

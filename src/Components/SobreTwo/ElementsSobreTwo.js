@@ -3,6 +3,7 @@ import theme from '../../Theme/theme';
 
 export const Container = styled.section`
     height: 80vh;
+    min-width: 100vw;
     display: flex;
     justify-content: center;
 `;

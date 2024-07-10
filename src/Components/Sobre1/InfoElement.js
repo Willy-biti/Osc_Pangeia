@@ -11,36 +11,6 @@ color:${theme.background};
 background:  ${theme.primary};
 min-width: 100vw;
 font-weight: bold;
-//     position: relative;
-//     overflow: hidden;
-
-//      &::before,
-//   &::after {
-//     content: '';
-//     position: absolute;
-//     width: 100%;
-//     height: 50px;
-//     left: 0;
-//     z-index: 1;
-//   }
-
-// //   &::before {
-// //     top: 0;
-// //     background: linear-gradient(
-// //       to bottom,
-// //       ${theme.background1},
-// //       transparent
-// //     );
-//       }
-
-//   &::after {
-//     bottom: 0;
-//     background: linear-gradient(
-//       to top,
-//       ${theme.background1},
-//       transparent
-//     );
-//   }
 `
 
 export const SobreWrapper = styled.div`

@@ -10,6 +10,7 @@ export const GallaryContainer = styled.div`
     display: flex;
     justify-content: center;
     height: 600px;
+    min-width: 100vw;
 `
 
 export const GallaryContent = styled.div`
@@ -40,26 +41,25 @@ export const DivLeft = styled.div`
 `
 
 export const DivLeftBaixo = styled.div`
-    width: 400px;
+    width: 32vw;
     height: 300px;
     position: absolute;
-    top: 150px;  
+    top: 25vh;  
     border-radius: 0 50px 0 50px ;
     background: ${theme.secondary};
     border: 1px solid ${theme.secondary};
-    // left: 0;
     z-index: 1;
 `
 
 export const DivLeftCima = styled.div`
     position: absolute;
     top: 200px;  // ajuste conforme necessário
-    left: -20px; 
+    left: -1vw; 
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 400px;
+    width: 32vw;
     height: 300px;
     border-radius: 0 50px 0 50px ;
     background-size: cover;
