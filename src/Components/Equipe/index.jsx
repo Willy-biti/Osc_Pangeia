@@ -1,5 +1,3 @@
-
-// src/Components/Equipe/index.jsx
 import React, { useState } from 'react';
 import { teamMembers } from './Items';
 import {

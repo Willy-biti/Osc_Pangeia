@@ -1,9 +1,9 @@
-// src/Components/Equipe/elementsequipe.js
 import styled from 'styled-components';
+import theme from '../../Theme/theme';
 
 export const TeamSection = styled.section`
   padding: 40px 20px;
-  background: #f8f8f8;
+  background: ${theme.secondary};
   text-align: center;
   display: flex;
   justify-content: center;
@@ -14,17 +14,25 @@ export const TeamSection = styled.section`
 export const TeamTitle = styled.h2`
   font-size: 2.5rem;
   margin-bottom: 10px;
+  
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
 `;
 
 export const TeamDescription = styled.p`
   font-size: 1.1rem;
   margin-bottom: 40px;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
 `;
 
 export const TeamGallery = styled.div`
   width: 80%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
 `;
 
@@ -62,8 +70,8 @@ export const CardImage = styled.img`
   margin-bottom: 20px;
 
   background-size: cover;
-    background-position: center;
-    position: relative;   
+  background-position: center;
+  position: relative;   
 `;
 
 export const CardTitle = styled.h3`
@@ -86,8 +94,12 @@ export const MoreButton = styled.button`
   color: white;
   border-radius: 50%;
   cursor: pointer;
+  transiton: 0.3s;
+
   &:hover {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: ${theme.secondary};
+    transform: scale(1.2);
+    sc
   }
 `;
 
@@ -109,6 +121,11 @@ export const ModalContent = styled.div`
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 20px;
   max-width: 80%;
+
+  @media (max-width: 768px) {
+    padding: 10px;
+    max-width: 90%;
+  }
 `;
 
 export const ModalImage = styled.img`
@@ -125,4 +142,8 @@ export const ModalTitle = styled.h3`
 export const ModalDescription = styled.p`
   font-size: 0.9rem;
   line-height: 1.6;
+
+  @media (max-width: 768px) {
+    font-size: 0.8rem;
+  }
 `;

@@ -3,6 +3,7 @@ import Img1 from '../../Assets/Photos/Equipe/Will.jpeg';
 import Img2 from '../../Assets/Photos/Equipe/Dani.jpeg';
 import Img3 from '../../Assets/Photos/Equipe/Vane.jpeg';
 import Img4 from '../../Assets/Photos/Equipe/Manza.jpeg';
+import Img5 from '../../Assets/Photos/Equipe/Juan.jpeg';
 
 export const teamMembers = [
     {
@@ -16,7 +17,7 @@ export const teamMembers = [
       id: 2,
       name: 'Daniel Miranda',
       role: 'Tesoureiro',
-      bio: 'xxx',
+      bio: 'É angolano, natural da cidade de Luanda. É membro do coletivo Pangeia F.C desde 2014. Atualmente, atua como coordenador e tesoureiro do coletivo, trabalhando principalmente, nos seguintes serviços: cálculos e recebimento de receita; cuidar do fluxo de entrada e saída de recursos financeiros, bem como atuar com rotinas administrativas do coletivo. É autor do livro O fundo do poço: a excelência Frase do autor: "não para, você é incrível".',
       image: Img2,
     },
     // Adicione mais membros aqui
@@ -39,7 +40,7 @@ export const teamMembers = [
       name: 'Juan',
       role: 'xxx',
       bio: 'xxx',
-      image: Img1,
+      image: Img5,
     },
     {
       id: 6,
