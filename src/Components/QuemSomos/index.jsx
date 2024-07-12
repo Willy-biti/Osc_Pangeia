@@ -1,8 +1,8 @@
 import * as C from "./ElementsQuemSomos";
 import { DataAbout } from "./DataQuemSomos";
 import Equipe from "../Equipe";
-// import Noticias from "../Noticias";
-import Entrevista from "../Entrevista";
+import Entrevista from '../../Components/Entrevista';
+import Eixos from "../Eixos";
 
 function QuemSomos() {
   return (
@@ -16,7 +16,7 @@ function QuemSomos() {
                 </C.DiveText>
             </C.Content>
         </C.Container>
-        {/* <Noticias /> */}
+        <Eixos />
         <Entrevista />
         <Equipe />
 

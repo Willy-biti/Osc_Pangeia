@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import Bg from "../../Assets/Photos/rega.jpg";
-import theme from "../../Theme/theme";
 
 export const Container = styled.section`
     width: 100vw;
