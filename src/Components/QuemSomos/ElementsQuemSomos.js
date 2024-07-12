@@ -18,7 +18,7 @@ export const Container = styled.section`
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.7); /* Sobreposição escura */
+    background: rgba(0, 0, 0, 0.9); /* Sobreposição escura */
     z-index: 1; /* Coloca a sobreposição atrás do conteúdo */
   }
     

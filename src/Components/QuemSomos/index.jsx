@@ -2,6 +2,7 @@ import * as C from "./ElementsQuemSomos";
 import { DataAbout } from "./DataQuemSomos";
 import Equipe from "../Equipe";
 import Entrevista from '../../Components/Entrevista';
+import Lema from "../Lema";
 import Eixos from "../Eixos";
 
 function QuemSomos() {
@@ -16,6 +17,7 @@ function QuemSomos() {
                 </C.DiveText>
             </C.Content>
         </C.Container>
+        <Lema />
         <Eixos />
         <Entrevista />
         <Equipe />
