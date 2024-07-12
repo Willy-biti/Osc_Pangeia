@@ -11,12 +11,22 @@ export const TeamSection = styled.section`
   align-items: center;
 `;
 
-export const TeamTitle = styled.h2`
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+export const TeamTitle = styled.div`
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: ${theme.background};
   
   @media (max-width: 768px) {
     font-size: 2rem;
+  }
+
+  h1{
+    height: 80px;
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
   }
 `;
 
@@ -32,7 +42,7 @@ export const TeamDescription = styled.p`
 export const TeamGallery = styled.div`
   width: 80%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
 `;
 

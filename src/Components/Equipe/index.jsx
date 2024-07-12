@@ -33,10 +33,13 @@ const Equipe = () => {
 
   return (
     <TeamSection>
-      <TeamTitle>Nossa Equipe</TeamTitle>
-      <TeamDescription>
-        Conheça os membros talentosos e dedicados da nossa equipe.
-      </TeamDescription>
+      <TeamTitle>
+        <h1>Nossa</h1>
+        <h1 style={{borderBottom:'4px solid green', marginLeft: '10px'}}>equipe</h1>
+      </TeamTitle>
+       <TeamDescription>
+        
+      </TeamDescription> 
       <TeamGallery>
         {teamMembers.map((member) => (
           <Card key={member.id} isFlipped={false}>
