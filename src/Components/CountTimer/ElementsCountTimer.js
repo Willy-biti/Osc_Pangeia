@@ -8,7 +8,7 @@ export const CountdownContainer = styled.div`
 `;
 
 export const ContentWrapper = styled.div`
-  background-color: rgba(0, 0, 0, 0.5);
+  // background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
   border-radius: 10px;
   color: ${theme.primary};

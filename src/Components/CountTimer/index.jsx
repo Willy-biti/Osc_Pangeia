@@ -44,7 +44,8 @@ const CountdownTimer = () => {
     <CountdownContainer>
       <ContentWrapper>
         <Title>
-          <TypeWriterH1 />
+          FESTIVAL SEM FRONTEIRA 2024
+          {/* <TypeWriterH1 /> */}
         </Title>
         <TimerContainer>
           <TimerDisplay timeLeft={timeLeft} />

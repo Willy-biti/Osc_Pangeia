@@ -5,7 +5,7 @@ import {GiSoccerKick, GiGoalKeeper, GiLaserBurst} from 'react-icons/gi';
 import {LiaBeerSolid} from 'react-icons/lia';
 import {GiWindyStripes} from 'react-icons/gi';
 import {MdOutlineEventAvailable} from 'react-icons/md';
-import {FaUmbrellaBeach, FaNetworkWired} from 'react-icons/fa';
+import {FaUmbrellaBeach } from 'react-icons/fa';
 
 
 function Eixos() {
