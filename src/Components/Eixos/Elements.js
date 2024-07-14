@@ -11,16 +11,59 @@ export const Content = styled.div`
     width: 80%;
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 `
 export const Div1 = styled.div`
     width: 50%;
-    height: 100vh;
+    height: auto;
+    display: flex;
+    // justify-content: center;
+    flex-direction: column;
+    color: ${theme.background};
+
+   
+`
+export const TitleDiv1 = styled.div`
+    // height: 20%;
     display: flex;
     justify-content: center;
     flex-direction: column;
 
+       h1{
+        margin-top: 30px;
+    }
+
+    h4{
+        margin-top: 30px;
+        color: ${theme.Title};
+    }
+`
+export const ContentDiv1 = styled.div`
+    margin-top: 30px;
+    // height: 80%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    // grid-template-rows: 200px;  
+    // grid-gap: 2px;     
+
    
 `
+export const DivIcon = styled.div`
+    // background: red;
+    // border: 1px solid green;
+    width: 100%;   
+    height: 200px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+   h3{
+    margin-bottom: 10px;
+   }
+`
+
 export const Div2 = styled.div`
     width: 50%;
     height: auto;
@@ -35,7 +78,7 @@ export const TitleDiv2 = styled.div`
     justify-content: center;
     flex-direction: column;
     // align-items: center;
-    // color: ${theme.background};
+    
 
     h1{
         margin-top: 30px;
@@ -57,6 +100,7 @@ export const DescDiv2 = styled.div`
     h2{
         margin-top: 20px;
         margin-bottom: 30px;
+        color: ${theme.primary};
     }
 
     h4{

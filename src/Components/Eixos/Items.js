@@ -1,6 +1,8 @@
 export const DataEixos = {
-    Title: 'Eixos de Atuaçãoos',
+    Title: 'Eixos de atuação',
     SubTitle: 'Nós trabalhamos com dois principais eixos de atuação: Futebol e eventos culturais',
+    TeteDiv1: 'Integração',
+    DescDiv1: 'Promovemos diversas atividades onde todos podem participar, se conectar e aproveitar momentos juntos. Aqui estão algumas das maneiras como nos integramos:',
     TitleEixo1: '1. Jogos de futebol',
     DescEixo1: 'Desde 2014, desenvolvemos atividades que promovem a cultura corporal por meio do futebol, proporcionando um ambiente inclusivo e acolhedor para todos os participantes. O jogo de futebol semanal é um espaço onde pessoas de diferentes sexos, gêneros, ideologias políticas e níveis de habilidade são bem-vindas. Nosso grupo pratica a escuta ativa e a aprendizagem coletiva, criando um espaço dinâmico e participativo para todos. As interações entre jogadores, espectadores e apoiadores formam laços significativos e fortalecem a comunidade.',
     TitleEixo2: '2. Eventos culturais',
