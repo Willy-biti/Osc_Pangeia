@@ -1,19 +1,21 @@
-
 import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 import theme from "../../Theme/theme";
 
 export const Nav = styled.nav`
-background-color: rgba(0, 0, 0, 0.6);
+    background-color: ${({ scrollNav }) => (scrollNav ? theme.Title : 'rgba(0, 0, 0, 0.6)')};
+    color: ${({ scrollNav }) => (scrollNav ? '#fff' : theme.primary)};
     height: 14vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1rem;
-    position: absolute;
+    position: ${({ scrollNav }) => (scrollNav ? 'fixed' : 'absolute')};
+    top: ${({ scrollNav }) => (scrollNav ? '0' : 'initial')};
     z-index: 10;
+    transition: all 0.3s ease-in-out;
 
     @media screen and (max-width: 960px) {
         transition: 0.8s all ease;
@@ -25,11 +27,10 @@ export const NavbarContainer = styled.div`
     justify-content: space-between;
     height: 100%;
     width: 80%;
-    // background-color: rgba(0, 0, 0, 0.6);
 `;
 
 export const NavLogo = styled(LinkR)`
-    color: ${theme.primary};
+    color: ${({ scrollNav }) => (scrollNav ? '#fff' : theme.primary)};
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
@@ -59,7 +60,7 @@ export const MobileIcon = styled.div`
         cursor: pointer;
         outline: none;
         text-decoration: none;
-        color: ${theme.secondary};
+        color: ${({ scrollNav }) => (scrollNav ? '#fff' : theme.secondary)};
     }
 `;
 
@@ -68,7 +69,6 @@ export const NavMenu = styled.ul`
     align-items: center;
     list-style: none;
     text-align: center;
-    // background-color: rgba(0, 0, 0, 0.6);
 
     @media screen and (max-width: 950px) {
         display: none;
@@ -76,13 +76,12 @@ export const NavMenu = styled.ul`
 `;
 
 export const NavItem = styled.li`
-    // width: 120px;
     height: 80px;
-    position: relative; /* Para posicionar o SubMenu */
+    position: relative;
 `;
 
 export const NavLinks = styled(LinkS)`
-    color: ${theme.primary};
+    color: ${({ scrollNav }) => (scrollNav ? '#fff' : theme.primary)};
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -92,7 +91,6 @@ export const NavLinks = styled(LinkS)`
     transition: 0.2s;
     font-weight: bold;
     outline: none;
-    
 
     &.active,
     &:hover {
@@ -102,7 +100,7 @@ export const NavLinks = styled(LinkS)`
 `;
 
 export const NavLinkR = styled(LinkR)`
-    color: ${theme.primary};
+    color: ${({ scrollNav }) => (scrollNav ? '#fff' : theme.primary)};
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -127,7 +125,7 @@ export const SubMenu = styled.div`
     left: 0;
     width: 160px;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: black;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 
     ${NavItem}:hover & {
@@ -136,7 +134,7 @@ export const SubMenu = styled.div`
 `;
 
 export const SubMenuItem = styled(LinkR)`
-    color: ${theme.primary};
+    color: ${({ scrollNav }) => (scrollNav ? '#fff' : theme.primary)};
     padding: 12px 10px;
     text-decoration: none;
     display: block;
