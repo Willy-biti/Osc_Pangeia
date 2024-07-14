@@ -10,7 +10,7 @@ export const Container = styled.div`
 export const Content = styled.div`
     width: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 30px;
 `
 export const Div1 = styled.div`
@@ -20,6 +20,8 @@ export const Div1 = styled.div`
     // justify-content: center;
     flex-direction: column;
     color: ${theme.background};
+    border-right: 2px solid black;
+    margin-top: 30px;
 
    
 `
@@ -30,7 +32,7 @@ export const TitleDiv1 = styled.div`
     flex-direction: column;
 
        h1{
-        margin-top: 30px;
+        margin-top: 10px;
     }
 
     h4{
@@ -65,13 +67,15 @@ export const DivIcon = styled.div`
 `
 
 export const Div2 = styled.div`
-    width: 50%;
+    width: 45%;
     height: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     color: ${theme.background};
+    margin-top: 30px;
+
 `
 export const TitleDiv2 = styled.div`
     display: flex;
@@ -81,7 +85,7 @@ export const TitleDiv2 = styled.div`
     
 
     h1{
-        margin-top: 30px;
+        margin-top: 10px;
     }
 
     h4{
