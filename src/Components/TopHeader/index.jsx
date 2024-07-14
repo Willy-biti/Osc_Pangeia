@@ -20,7 +20,7 @@ function TopHeader() {
                 </C.Div1>
                 <C.Div2>
                     <C.RedeSociais>
-                        <C.BotaoDoar to='/doar'>
+                        <C.BotaoDoar to='/doacao'>
                         {DataTop.Doe} 
                         <FaDonate style={{marginLeft:'8px'}}/>
                         </C.BotaoDoar>
