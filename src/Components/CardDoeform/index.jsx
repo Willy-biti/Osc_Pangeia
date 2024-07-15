@@ -2,7 +2,12 @@ import React from 'react';
 import  * as C from"./ElementsDuvidas";
 
 import { FaDonate } from 'react-icons/fa';
-import {FaWpforms} from 'react-icons/fa6'
+import {FaWpforms} from 'react-icons/fa6';
+
+const openForm = () => {
+  window.open("https://docs.google.com/forms/d/e/1FAIpQLSfoq9jGLJFJ28ZYqqOkWUAH92RflaG0V4xotjUD55Cm04QzdA/viewform?usp=pp_url", "_blank");
+};
+
 
 function CardDoeForm() {
   return (
@@ -36,11 +41,8 @@ function CardDoeForm() {
                 <p> Quer se tornar membro? clique em baixo para preencher o formulário</p>
               </C.Description>
               <C.DivButton>
-                <C.Button to='/formulario' style={{
-                  background: '#000',
-                  color: ''
-                }}
-                >Clique aqui</C.Button>
+                <C.Button2 onClick={openForm}
+                >Clique aqui</C.Button2>
               </C.DivButton>
               </C.OverlayDiv>
             </C.Content2>

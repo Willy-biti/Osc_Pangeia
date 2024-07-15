@@ -104,3 +104,17 @@ export const Button = styled(Link)`
   border-radius: 10px;
   font-weight: bold;
 `;
+
+export const Button2 = styled.button`
+  width: 120px;
+  height: 40px;
+  background-color: ${theme.Title};
+  border: none;
+  color: ${theme.background};
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  font-weight: bold;
+`;

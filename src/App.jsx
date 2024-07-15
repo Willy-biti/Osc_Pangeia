@@ -14,6 +14,7 @@ import Haiti from './Pages/Haiti';
 import Palestina from './Pages/Palestina';
 import Contatos from './Pages/Contatos';
 import Doacao from './Pages/Doacao';
+import FormularioCad from './Pages/FormularioCad';
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
           <Route path='/evento-palestina' element={<Palestina />} />
           <Route path='/contatos' element={<Contatos />} />
           <Route path='/doacao' element={<Doacao />} />
+          <Route path='/formulario' element={<FormularioCad />} />
         </Routes>
       </Router>
       <GlobalStyle />
