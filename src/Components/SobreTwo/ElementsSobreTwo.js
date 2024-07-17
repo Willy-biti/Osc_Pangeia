@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import theme from '../../Theme/theme';
 
 export const Container = styled.section`
-    height: 80vh;
+    height: auto;
     min-width: 100vw;
     display: flex;
     justify-content: center;
@@ -12,6 +12,8 @@ export const Content = styled.div`
     width: 80%;
     display: flex;
     justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
 `;
 
 export const Cards = styled.div`
@@ -19,11 +21,13 @@ export const Cards = styled.div`
     justify-content: space-evenly;
     align-items: center;
     padding: 10px;
+
+    // background: red;
 `;
 
 export const ContentCards1 = styled.div`
-    width: 250px;
-    height: 370px;
+    width: 80%;
+    height: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -33,8 +37,8 @@ export const ContentCards1 = styled.div`
 `;
 
 export const ContentCards2 = styled.div`
-    width: 250px;
-    height: 370px;
+    width: 80%;
+    height: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -44,8 +48,8 @@ export const ContentCards2 = styled.div`
 `;
 
 export const ContentCards3 = styled.div`
-    width: 250px;
-    height: 370px;
+    width: 80%;
+    height: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -77,7 +81,7 @@ export const Title = styled.div`
 `;
 
 export const Desc = styled.div`
-    height: 230px;
+    height: auto;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -85,7 +89,7 @@ export const Desc = styled.div`
     p {
         width: 80%;
         line-height: 1.6;
-        margin-bottom: 15px;
+        margin-bottom: 60px;
     }
 
     .highlight {

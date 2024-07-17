@@ -10,7 +10,7 @@ export const Container = styled.header`
     background: ${theme.background1};
 `;
 
-export const Content = styled.div`
+export const Content = styled.header`
     width: 80%;
     height: 15vh;
     display: flex;
@@ -18,7 +18,7 @@ export const Content = styled.div`
     align-items: center;
 `;
 
-export const Div1 = styled.div`
+export const Div1 = styled.header`
     display: flex;
     justify-content: flex-start;
 `;
@@ -36,7 +36,7 @@ export const Logo = styled.img`
     cursor: pointer;
 `;
 
-export const Div2 = styled.div`
+export const Div2 = styled.header`
     display: flex;
     justify-content: flex-end;
 `;

@@ -5,14 +5,14 @@ import { Link as LinkS } from "react-scroll";
 import theme from "../../Theme/theme";
 
 export const Nav = styled.nav`
-    background: ${theme.secondary};
+    background: ${theme.primary};
     height: 80px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1rem;
-    position: absolute;
+    position: fixed;
     top: 0;
     z-index: 10;
 
@@ -126,7 +126,7 @@ export const SubMenu = styled.div`
     left: 0;
     width: 160px;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: ${theme.primary};
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 
     ${NavItem}:hover & {
@@ -144,7 +144,7 @@ export const SubMenuItem = styled(LinkR)`
     white-space: nowrap;
 
     &:hover {
-        background-color: ${theme.secondary};
+        background-color: ${theme.Title};
         color: ${theme.background};
     }
 `;

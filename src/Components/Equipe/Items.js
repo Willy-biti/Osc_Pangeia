@@ -4,6 +4,7 @@ import Img2 from '../../Assets/Photos/Equipe/Dani.jpeg';
 import Img3 from '../../Assets/Photos/Equipe/Vane.jpeg';
 import Img4 from '../../Assets/Photos/Equipe/Manza.jpeg';
 import Img5 from '../../Assets/Photos/Equipe/Juan.jpeg';
+import Img6 from '../../Assets/Photos/Equipe/Flavio.jpeg';
 
 export const teamMembers = [
     {
@@ -47,7 +48,7 @@ export const teamMembers = [
       name: 'Flavio',
       role: 'xxx',
       bio: 'xxx ',
-      image: Img1,
+      image: Img6,
     },
   ];
   

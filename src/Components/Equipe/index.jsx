@@ -1,21 +1,6 @@
 import React, { useState } from 'react';
 import { teamMembers } from './Items';
-import {
-  TeamSection,
-  TeamTitle,
-  TeamDescription,
-  TeamGallery,
-  Card,
-  CardFront,
-  CardImage,
-  CardTitle,
-  CardRole,
-  MoreButton,
-  ModalOverlay,
-  ModalContent,
-  ModalImage,
-  ModalTitle,
-  ModalDescription
+import {TeamSection, TeamTitle, TeamDescription, TeamGallery, Card, CardFront, CardImage, CardTitle, CardRole, MoreButton, ModalOverlay, ModalContent, ModalImage, ModalTitle, ModalDescription
 } from './ElementEquipe';
 
 const Equipe = () => {
